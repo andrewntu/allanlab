@@ -6,6 +6,7 @@ sitemap: false
 permalink: /teach
 ---
 
+
 ### Teaching Experience
 
 You find the past job openings here:

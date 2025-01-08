@@ -6,6 +6,7 @@ sitemap: false
 permalink: /work
 ---
 
+
 # Open positions
 
 **We are currently open for PhD and postdoc applications related to our ERC CoG grant. The positions are mostly related to the Electron Pair Microscopy projects.**
