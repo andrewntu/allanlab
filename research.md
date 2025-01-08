@@ -10,7 +10,7 @@ permalink: /research/
 
 My goal including discovering the subsurface structure of the earth, unveiling the mysterious activities of geyser, and applying Machine Learning on Earth Science data to discover the secrets behind out planet.
 
-My main advisor in my Ph.D. career is Dr. [Fan-Chi Lin](https://noise.earth.utah.edu/), and closely collaborate with a group in UC Berkeley, leading by Dr. [Michael Manga] (https://eps.berkeley.edu/people/michael-manga). 
+My main advisor in my Ph.D. career is Dr. [Fan-Chi Lin](https://noise.earth.utah.edu/), and closely collaborate with a group in UC Berkeley, leading by Dr. [Michael Manga](https://eps.berkeley.edu/people/michael-manga). 
 
 
 Here are some topics and researchs that I finished or currently work on:
