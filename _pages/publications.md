@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Publications"
+title: "CN Liu - Publications"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "CN Liu -- Publications."
 sitemap: false
 permalink: /publications/
 ---
@@ -11,7 +11,7 @@ permalink: /publications/
 
 ## Group highlights
 
-**At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).**
+**At the end of this page, you can find all the abtract and publications on the [google scholar](https://scholar.google.com/citations?user=92mnkwIAAAAJ&hl=en&inst=6453797383205921872&authuser=1).**
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
