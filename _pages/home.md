@@ -8,6 +8,7 @@ permalink: /
 
 **News: New website Alert!** Hi, this is my new website. Come and check it out!!!
 
+**Interest: Hydrothermal System Monitoring | Ambient Noise Tomography | Mahchine Learning**
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -53,10 +54,10 @@ permalink: /
 </div>
 
 
-Hi, I'm Cheng-Nan Liu, a highly self-motivated fourth-year Ph.D. student with extensive experience in data science at [University of Utah](https://earth.utah.edu/). Proficient in time series data analysis and machine learning applications in Seismology. Proven track record of developing advanced machine learning models for hydrothermal systems monitoring and prediction. Skilled in both independent research and collaborative projects, with multiple publications in leading geophysical journals. Currently working on hydrothermal system monitoring and multiple topics on machine learning (see [Research](research)). 
+Hi, I'm Cheng-Nan Liu, a highly self-motivated fourth-year Ph.D. student with extensive experience in data science at [University of Utah](https://earth.utah.edu/). Proficient in **time series data analysis** and **machine learning** applications in Seismology. Proven track record of developing advanced machine learning models for hydrothermal systems monitoring and prediction. Skilled in both independent research and collaborative projects, with multiple publications in leading geophysical journals. Currently working on hydrothermal system monitoring and multiple topics on machine learning (see [Research](research)). 
 
 
-The link to my personal website....
+The link to my social media are shown below. Feel free to check them out!
 
 
 
