@@ -1,6 +1,4 @@
 - title: "Multimode ambient noise double-beamforming tomography with a dense linear array: revealing accretionary wedge architecture across Central Taiwan"
-  image: ShotNoise.png
-  description: "Can mesoscopic shot noise experiments show the doubling of the charge carriers in a superconductor? Turns out, it's complicated. We investigated this in several different samples and made predictions as to what is necessary to make this work."
   authors: "Liu, C. N., Lin, F. C., Huang, H. H., Wang, Y., & Gkogkas, K. (2024)"
   link:
     url: "https://academic.oup.com/gji/article/239/1/467/7731147"
@@ -8,14 +6,12 @@
   highlight: 1
 
 - title: "Thumping Cycle Variations of Doublet Pool in Yellowstone National Park, USA"
-  image: imageaward_edited.png
-  description: "Shot noise has been suggested for a long time as a tell-tale probe for Majorana bound states. We are the first to carry out local tunneling shot noise measurements on the putative vortex Majorana states."
   authors: "Liu, C. N., Lin, F. C., Manga, M., Farrell, J., Wu, S. M., Reed, M. H., ... & White, E. (2023)"
   link:
     url: "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2022GL101175"
     display: "Geophysical Research Letters, 50(4), e2022GL101175."
   highlight: 1
-  news1:[Down to Earth](https://issuu.com/uofucollegeofscience/docs/downtoearth_pub2023_web?fr=sNzk2YjY0Nzc1MDY)
+  news1: [Down to Earth](https://issuu.com/uofucollegeofscience/docs/downtoearth_pub2023_web?fr=sNzk2YjY0Nzc1MDY)
 
 - title: "High‐resolution 3‐D shear wave velocity model of northern Taiwan via Bayesian joint inversion of Rayleigh wave ellipticity and phase velocity with Formosa array"
   image: BSCCOgap.png
