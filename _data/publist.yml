@@ -14,6 +14,19 @@
   news1: 
     name: "Down to Earth"
     url: "https://issuu.com/uofucollegeofscience/docs/downtoearth_pub2023_web?fr=sNzk2YjY0Nzc1MDY"
+  news2:    
+    name: "UU College of Science"
+    url: "https://science.utah.edu/news/thumping-thermometer"
+  news3:    
+    name: "@theU"
+    url: "https://attheu.utah.edu/uncategorized/a-pool-at-yellowstone-is-a-thumping-thermometer"
+  news4:    
+    name: "IFLScience"
+    url: "https://www.iflscience.com/yellowstone-s-searing-hot-pulsing-pool-acts-like-a-thumping-thermometer-67910"
+  news5:
+    name: "SciTechDaily"
+    url: "https://scitechdaily.com/the-thumping-thermometer-of-yellowstone-unique-pool-reveals-secrets-of-hydrothermal-system"
+
 
 - title: "High‐resolution 3‐D shear wave velocity model of northern Taiwan via Bayesian joint inversion of Rayleigh wave ellipticity and phase velocity with Formosa array"
   image: BSCCOgap.png
