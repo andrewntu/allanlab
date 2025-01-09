@@ -1,27 +1,26 @@
 ---
-title: "Working Experience"
+title: "Biography"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
-permalink: /work
+permalink: /bio
 ---
 
+### Education
+Aug. 2021 – Present     Ph.D. candidate, Department of Geology and Geophysics, University of Utah, Salt Lake City, UT, U.S.A. (Advisor: [Dr. Fan-Chi Lin](https://noise.earth.utah.edu/))
+Aug. 2017 – Jun. 2019   Master, Department of Geoscience, National Taiwan University, Taipei, Taiwan
+Aug. 2013 – Jun. 2017   Bachelor, Department of Earth Science, National Cheng Kung University, Tainan, Taiwan
 
-# Working Experience
+
+### Working Experience
+#### **Research Assistant** @ University of Utah, Utah, U.S.A. (***Full time***)
+##### ***Aug 2021 - present***
+- 
+- 
 #### **Research Intern** @ Lawerence Berkeley National Laboratory, Berkeley, U.S.A. (***Full time***)
 ##### ***May 2024 - Aug 2024***
 - Develop a machine learning model for image restoration on time series data.
 - Fostered strong collaboration in a multidisciplinary team, enhancing cross-departmental synergy and innovation.
-
-#### **Research Assistant** @ University of Utah, Utah, U.S.A. (***Full time***)
-##### ***Jan 2022 - Jul 2022***
-
-#### **Research Assistant** @ University of Utah, Utah, U.S.A. (***Full time***)
-##### ***Jan 2022 - Jul 2022***
-
-#### **Research Assistant** @ University of Utah, Utah, U.S.A. (***Full time***)
-##### ***Aug 2024 - Dec 2024***
-
 
 #### **Research Assistant** @ Institute of Earth Sciences, Academia Sinica, Taipei, Taiwan. (***Full time***)
 ##### ***Jan. 2020 - Jul. 2021***
@@ -31,6 +30,6 @@ permalink: /work
 
 
 
-<figure>
+<!-- <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/DSC_0696.jpg" width="95%">
-</figure>
+</figure> -->
