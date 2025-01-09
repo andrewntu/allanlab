@@ -7,9 +7,9 @@ permalink: /bio
 ---
 
 ### Education
-Aug. 2021 – Present     Ph.D. candidate, Department of Geology and Geophysics, University of Utah, Salt Lake City, UT, U.S.A. (Advisor: [Dr. Fan-Chi Lin](https://noise.earth.utah.edu/))<br />
-Aug. 2017 – Jun. 2019   Master, Department of Geoscience, National Taiwan University, Taipei, Taiwan<br />
-Aug. 2013 – Jun. 2017   Bachelor, Department of Earth Science, National Cheng Kung University, Tainan, Taiwan<br />
+Aug. 2021 – Present &emsp; Ph.D. candidate, Department of Geology and Geophysics, University of Utah, Salt Lake City, UT, U.S.A. (Advisor: [Dr. Fan-Chi Lin](https://noise.earth.utah.edu/))<br />
+Aug. 2017 – Jun. 2019 &emsp; Master, Department of Geoscience, National Taiwan University, Taipei, Taiwan<br />
+Aug. 2013 – Jun. 2017 &emsp; Bachelor, Department of Earth Science, National Cheng Kung University, Tainan, Taiwan<br />
 
 ### Working Experience
 #### **Research Assistant** @ University of Utah, Utah, U.S.A. (***Full time***)
