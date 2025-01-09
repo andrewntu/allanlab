@@ -56,6 +56,14 @@ Hi, I'm Cheng-Nan Liu, a highly self-motivated fourth-year Ph.D. candidate with 
 
 The link to my social media are shown below. Feel free to check them out!
 
+<div class="social-links">
+    <a href="https://www.linkedin.com/in/cheng-nan-liu-83077924a/" target="_blank">
+        <i class="fab fa-linkedin"></i> <!-- Font Awesome -->
+    </a>
+    <a href="https://github.com/andrewntu" target="_blank">
+        <i class="fab fa-github"></i> <!-- Font Awesome -->
+    </a>
+</div>
 
 
 
