@@ -48,15 +48,18 @@ permalink: /publications/
 
 <p> &nbsp; </p> -->
 
-## upcoming
-
+## Upcoming
+Seismic and Thermal Disturbances at Upper Geyser Hill, Yellowstone National Park (2023): Insights into Hydrothermal System Dynamics
+<em>**Liu, C. N.***, Lin, F. C., Manga, M., Farrell, J., Reed, M. H., Barth, A.,... & White, E. (**in prep.**) </em>
 
 ## Full List of publications
 
 {% for publi in site.data.publist %}
 
   {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }} </a> (News: <a href="{{ publi.news1.url }}">{{ publi.news1.name }}</a>, <a href="{{ publi.news2.url }}">{{ publi.news2.name }}</a>, <a href="{{ publi.news3.url }}">{{ publi.news3.name }}</a>, <a href="{{ publi.news4.url }}">{{ publi.news4.name }}</a>, <a href="{{ publi.news5.url }}">{{ publi.news5.name }}</a>)
+  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }} </a> 
+  {% if publi.news1 %}
+  (News: <a href="{{ publi.news1.url }}">{{ publi.news1.name }}</a>, <a href="{{ publi.news2.url }}">{{ publi.news2.name }}</a>, <a href="{{ publi.news3.url }}">{{ publi.news3.name }}</a>, <a href="{{ publi.news4.url }}">{{ publi.news4.name }}</a>, <a href="{{ publi.news5.url }}">{{ publi.news5.name }}</a>){% if forloop.last == false %}, {% endif %}
 
 {% endfor %}
 
@@ -75,4 +78,5 @@ permalink: /publications/
 {% endfor %} -->
 
 ## Thesis
-<em>**Liu, Cheng-Nan***, Ting Chung Huang, and Yih Min Wu</em><br />Using low-cost seismometers and machine learning on earthquake early warning.<br /> [Master Thesis](https://doi.org/10.6342/NTU201901735) (2019)
+Using low-cost seismometers and machine learning on earthquake early warning.
+<em>**Liu, Cheng-Nan***, Ting Chung Huang, and Yih Min Wu</em><br /><br /> [Master Thesis](https://doi.org/10.6342/NTU201901735) (2019)
