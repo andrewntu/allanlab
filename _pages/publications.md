@@ -49,6 +49,7 @@ permalink: /publications/
 <p> &nbsp; </p> -->
 
 ## Upcoming
+
 Seismic and Thermal Disturbances at Upper Geyser Hill, Yellowstone National Park (2023): Insights into Hydrothermal System Dynamics
 <em>**Liu, C. N.***, Lin, F. C., Manga, M., Farrell, J., Reed, M. H., Barth, A.,... & White, E. (**in prep.**) </em>
 
@@ -59,7 +60,7 @@ Seismic and Thermal Disturbances at Upper Geyser Hill, Yellowstone National Park
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }} </a> 
   {% if publi.news1 %}
-  (News: <a href="{{ publi.news1.url }}">{{ publi.news1.name }}</a>, <a href="{{ publi.news2.url }}">{{ publi.news2.name }}</a>, <a href="{{ publi.news3.url }}">{{ publi.news3.name }}</a>, <a href="{{ publi.news4.url }}">{{ publi.news4.name }}</a>, <a href="{{ publi.news5.url }}">{{ publi.news5.name }}</a>){% if forloop.last == false %}, {% endif %}
+  (News: <a href="{{ publi.news1.url }}">{{ publi.news1.name }}</a>, <a href="{{ publi.news2.url }}">{{ publi.news2.name }}</a>, <a href="{{ publi.news3.url }}">{{ publi.news3.name }}</a>, <a href="{{ publi.news4.url }}">{{ publi.news4.name }}</a>, <a href="{{ publi.news5.url }}">{{ publi.news5.name }}</a>){% endif %}
 
 {% endfor %}
 
