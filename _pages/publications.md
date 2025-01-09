@@ -53,11 +53,26 @@ permalink: /publications/
 
 ## Full List of publications
 
-{% for publi in site.data.publist %}
+<!-- {% for publi in site.data.publist %}
 
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }} </a> (<em>News: {{ publi.news1 }}, {{ publi.news2 }}, {{ publi.news3 }}, {{ publi.news4 }}, {{ publi.news5 }} </em>)
 
+{% endfor %} -->
+
+{% for publi in site.data.publist %}
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }}</em><br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+
+  {% if publi.news %}
+    (<em> News:
+    {% for news_item in publi.news %}
+      <a href="{{ news_item.url }}">{{ news_item.name }}</a>{% if forloop.last == false %}, {% endif %}
+    {% endfor %}
+    </em>)
+  {% endif %}
+  <br /><br />
 {% endfor %}
 
 ## Thesis
