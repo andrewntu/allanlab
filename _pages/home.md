@@ -6,9 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-**News: New website Alert!** Hi, this is my new website. Come and check it out!!!
+**News: New website Alert!** Hi, this is my new website. Come and check it out!
 
-**Interest: Hydrothermal System Monitoring | Ambient Noise Tomography | Mahchine Learning**
+**Interest: Hydrothermal System Monitoring / Ambient Noise Tomography / Mahchine Learning**
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->

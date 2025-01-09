@@ -10,7 +10,7 @@ title: The Grind
 email: Cheng-Nan.Liu@utah.com
 description: > # this means to ignore newlines until "baseurl:"
   Website of Cheng-Nan Liu.
-baseurl: "cnliu_web/"
+baseurl: "cnliu_web"
 url: "https://andrewntu.github.io/"
 
 include:
