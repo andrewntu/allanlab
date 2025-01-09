@@ -5,7 +5,7 @@
   authors: Liu, C. N., Lin, F. C., Huang, H. H., Wang, Y., & Gkogkas, K. (2024)
   link:
     url: https://academic.oup.com/gji/article/239/1/467/7731147
-    display: ***Geophysical Journal International***, 239(1), 467-477.
+    display: <em>Geophysical Journal International<\em>, 239(1), 467-477.
   highlight: 1
 
 - title: "Thumping Cycle Variations of Doublet Pool in Yellowstone National Park, USA"
@@ -14,9 +14,9 @@
   authors: Liu, C. N., Lin, F. C., Manga, M., Farrell, J., Wu, S. M., Reed, M. H., ... & White, E. (2023).
   link:
     url: https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2022GL101175
-    display: ***Geophysical Research Letters***, 50(4), e2022GL101175.
+    display: <em>Geophysical Research Letters<\em>, 50(4), e2022GL101175.
   highlight: 1
-  news2: See [news item](https://www.universiteitleiden.nl/en/news/2023/06/new-method-to-find-majoranas-tested-for-the-first-time) by Michelle Willebrands
+  news2: [Down to Earth](https://issuu.com/uofucollegeofscience/docs/downtoearth_pub2023_web?fr=sNzk2YjY0Nzc1MDY), [UU College of Science](https://science.utah.edu/news/thumping-thermometer/)
 
 - title: "High‐resolution 3‐D shear wave velocity model of northern Taiwan via Bayesian joint inversion of Rayleigh wave ellipticity and phase velocity with Formosa array"
   image: BSCCOgap.png
@@ -24,5 +24,5 @@
   authors: Liu, C. N., Lin, F. C., Huang, H. H., Wang, Y., Berg, E. M., & Lin, C. H. (2021).
   link:
     url: https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2020JB021610
-    display: ***Journal of Geophysical Research: Solid Earth***, 126(5), e2020JB021610.
+    display: <em>Journal of Geophysical Research: Solid Earth<\em>, 126(5), e2020JB021610.
   highlight: 1

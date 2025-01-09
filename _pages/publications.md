@@ -48,9 +48,8 @@ permalink: /publications/
 
 <p> &nbsp; </p> -->
 
+## upcoming
 
-## Thesis
-<em>**Liu, Cheng-Nan***, Ting Chung Huang, and Yih Min Wu</em><br />Using low-cost seismometers and machine learning on earthquake early warning.<br /> Master Thesis (2019)
 
 ## Full List of publications
 
@@ -60,3 +59,6 @@ permalink: /publications/
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %}
+
+## Thesis
+<em>**Liu, Cheng-Nan***, Ting Chung Huang, and Yih Min Wu</em><br />Using low-cost seismometers and machine learning on earthquake early warning.<br /> Master Thesis (2019)
