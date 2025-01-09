@@ -12,17 +12,17 @@ Aug. 2017 – Jun. 2019 &emsp; Master, Department of Geoscience, National Taiwan
 Aug. 2013 – Jun. 2017 &emsp; Bachelor, Department of Earth Science, National Cheng Kung University, Tainan, Taiwan<br />
 
 ### **Working Experience**
-#### Research Assistant @ University of Utah, Utah, U.S.A. (<em>full time </em>)
+#### Research Assistant @ University of Utah, Utah, U.S.A. (<em>full time</em>)
 ##### ***Aug 2021 - present***
 - 
 - <br />
 
-#### Research Intern @ Lawerence Berkeley National Laboratory, Berkeley, U.S.A. (<em>full time </em>)
+#### Research Intern @ Lawerence Berkeley National Laboratory, Berkeley, U.S.A. (<em>full time</em>)
 ##### ***May 2024 - Aug 2024***
 - Develop a machine learning model for image restoration on time series data.
 - Fostered strong collaboration in a multidisciplinary team, enhancing cross-departmental synergy and innovation.
 
-#### Research Assistant @ Institute of Earth Sciences, Academia Sinica, Taipei, Taiwan. (<em>full time </em>)
+#### Research Assistant @ Institute of Earth Sciences, Academia Sinica, Taipei, Taiwan. (<em>full time</em>)
 ##### ***Jan. 2020 - Jul. 2021***
 - Develop a machine learning model and implement automated pipelines for earthquake relocation systems.
 - Develop a physical model using time series data analysis and Bayesian Markov-Chain Monte-Carlo modeling.
@@ -36,24 +36,24 @@ Aug. 2013 – Jun. 2017 &emsp; Bachelor, Department of Earth Science, National C
 
 ### **Selected Talks**
 #### American Geophysical Union (San Fransisco, U.S.A. (2023))
-• High-Resolution Ambient Noise Tomography across Central Taiwan via Multi-Mode Rayleigh Wave Phase Velocity Inversion
+- High-Resolution Ambient Noise Tomography across Central Taiwan via Multi-Mode Rayleigh Wave Phase Velocity Inversion
 #### Geosciences Annually Assembly (Taoyuan, Taiwan (2023))
-• High-Resolution Ambient Noise Tomography across Central Taiwan via Multi-Mode Rayleigh Wave Phase Velocity Inversion.
+- High-Resolution Ambient Noise Tomography across Central Taiwan via Multi-Mode Rayleigh Wave Phase Velocity Inversion.
 #### American Geophysical Union (New Orleans, U.S.A (2021))
-• High-Resolution 3-D Shear Wave Velocity Model of Northern Taiwan via Bayesian Joint Inversion of Rayleigh Wave Ellipticity and Phase Velocity with Formosa Array.
+- High-Resolution 3-D Shear Wave Velocity Model of Northern Taiwan via Bayesian Joint Inversion of Rayleigh Wave Ellipticity and Phase Velocity with Formosa Array.
 
 ### **Selected Posters**
 #### American Geophysical Union (Washington D.C, U.S.A. (2024))
-Waveform Upscaling in Seismology Using Swin Transformer and Dense Arrays: Enhancing Resolution and Accuracy with Machine Learning
+- Waveform Upscaling in Seismology Using Swin Transformer and Dense Arrays: Enhancing Resolution and Accuracy with Machine Learning
 #### American Geophysical Union (Washington D.C, U.S.A. (2024))
-Hydrothermal Systems Monitoring in Yellowstone National Park, USA: Case Studies Using Nodal Deployments on
+- Hydrothermal Systems Monitoring in Yellowstone National Park, USA: Case Studies Using Nodal Deployments on
 Doublet Pool and Steamboat Geyser.
 #### American Geophysical Union (San Fransisco, U.S.A. (2023))
-• Monitoring the Yellowstone Doublet Pool Thumping Cycle through temporal nodal deployments from 2015 to 2023.
+- Monitoring the Yellowstone Doublet Pool Thumping Cycle through temporal nodal deployments from 2015 to 2023.
 #### American Geophysical Union (Chicago, U.S.A. (2022))
-• Investigating the Yellowstone Doublet Pool Thumping Cycle through temporal nodal deployments.
+- Investigating the Yellowstone Doublet Pool Thumping Cycle through temporal nodal deployments.
 #### European Geosciences Union (Vienna, Austria (2019))
-• Using Low-cost Seismometers and Machine Learning on Onsite Earthquake Early Warning.
+- Using Low-cost Seismometers and Machine Learning on Onsite Earthquake Early Warning.
 
 
 ### **Leadership/Volunteer Experience**
