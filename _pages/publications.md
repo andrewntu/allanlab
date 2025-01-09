@@ -53,27 +53,26 @@ permalink: /publications/
 
 ## Full List of publications
 
-<!-- {% for publi in site.data.publist %}
+{% for publi in site.data.publist %}
 
   {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }} </a> (<em>News: {{ publi.news1 }}</em>)
+  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }} </a> News: {{ publi.news1 }} {{ publi.news2 }}
 
-{% endfor %} -->
+{% endfor %}
 
-{% for publi in site.data.publist %}
+<!-- {% for publi in site.data.publist %}
   {{ publi.title }} <br />
   <em>{{ publi.authors }}</em><br />
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
   {% if publi.news %}
-    <br />
-    <em>News:</em>
+    (<em> News:
     {% for news_item in publi.news %}
       <a href="{{ news_item.url }}">{{ news_item.name }}</a>{% if forloop.last == false %}, {% endif %}
     {% endfor %}
+    </em>)
   {% endif %}
   <br /><br />
-{% endfor %}
-
+{% endfor %} -->
 
 ## Thesis
 <em>**Liu, Cheng-Nan***, Ting Chung Huang, and Yih Min Wu</em><br />Using low-cost seismometers and machine learning on earthquake early warning.<br /> [Master Thesis](https://doi.org/10.6342/NTU201901735) (2019)
