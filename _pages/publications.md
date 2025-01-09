@@ -10,7 +10,7 @@ permalink: /publications/
 ## Publications
 **At the end of this page, you can find all the abtract and publications on the [google scholar](https://scholar.google.com/citations?user=92mnkwIAAAAJ&hl=en&inst=6453797383205921872&authuser=1).**
 
-{% assign number_printed = 0 %}
+<!-- {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
@@ -46,7 +46,7 @@ permalink: /publications/
 </div>
 {% endif %}
 
-<p> &nbsp; </p>
+<p> &nbsp; </p> -->
 
 
 ## Thesis
