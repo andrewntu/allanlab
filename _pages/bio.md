@@ -44,15 +44,15 @@ Aug. 2013 – Jun. 2017 &emsp; Bachelor, Department of Earth Science, National C
 
 ### **Selected Posters**
 #### American Geophysical Union (Washington D.C, U.S.A. (2024))
-- Waveform Upscaling in Seismology Using Swin Transformer and Dense Arrays: Enhancing Resolution and Accuracy with Machine Learning.
+##### - Waveform Upscaling in Seismology Using Swin Transformer and Dense Arrays: Enhancing Resolution and Accuracy with Machine Learning.
 #### American Geophysical Union (Washington D.C, U.S.A. (2024))
-- Hydrothermal Systems Monitoring in Yellowstone National Park, USA: Case Studies Using Nodal Deployments on Doublet Pool and Steamboat Geyser.
+##### - Hydrothermal Systems Monitoring in Yellowstone National Park, USA: Case Studies Using Nodal Deployments on Doublet Pool and Steamboat Geyser.
 #### American Geophysical Union (San Fransisco, U.S.A. (2023))
-- Monitoring the Yellowstone Doublet Pool Thumping Cycle through temporal nodal deployments from 2015 to 2023.
+##### - Monitoring the Yellowstone Doublet Pool Thumping Cycle through temporal nodal deployments from 2015 to 2023.
 #### American Geophysical Union (Chicago, U.S.A. (2022))
-- Investigating the Yellowstone Doublet Pool Thumping Cycle through temporal nodal deployments.
+##### - Investigating the Yellowstone Doublet Pool Thumping Cycle through temporal nodal deployments.
 #### European Geosciences Union (Vienna, Austria (2019))
-- Using Low-cost Seismometers and Machine Learning on Onsite Earthquake Early Warning.
+##### - Using Low-cost Seismometers and Machine Learning on Onsite Earthquake Early Warning.
 
 
 ### **Leadership/Volunteer Experience**
