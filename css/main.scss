@@ -92,26 +92,7 @@ firstp {
     margin-right: 30px;
 }
 
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 15px; /* Spacing between icons */
-    margin-top: 20px;
-}
-
-.social-links a {
-    color: #333; /* Default color */
-    text-decoration: none;
-}
-
-.social-links a:hover {
-    color: #0073b1; /* LinkedIn blue on hover */
-}
-
-.social-links i {
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.social-links a:hover i {
-    transform: scale(1.2); /* Slight zoom on hover */
-}
+.fa-linkedin,
+  .fa-linkedin-square {
+    color: #007bb6;
+  }
