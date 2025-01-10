@@ -58,7 +58,7 @@ The link to my social media are shown below. Feel free to check them out!<br />
 <a href="https://www.linkedin.com/in/cheng-nan-liu-83077924a"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a>
 <a href="https://github.com/andrewntu"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a>
 <a href="https://orcid.org/0000-0001-6287-7631"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
-<a href="https://scholar.google.com/citations?user=92mnkwIAAAAJ&hl=en&inst=6453797383205921872&authuser=1"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+<a href="https://scholar.google.com/citations?user=92mnkwIAAAAJ&hl=en&inst=6453797383205921872&authuser=1"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a>
 
 
 <figure class="fourth">

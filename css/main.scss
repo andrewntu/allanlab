@@ -106,7 +106,11 @@ firstp {
   .ai-orcid,
   .ai-orcid-square {
     color: #a6ce39;
-  }  
+  }
+    
+  .ai-orcid:before {
+    content: "\e9d9";
+  }
 
   .ai-google-scholar:before {
     content: "\e9d4";
