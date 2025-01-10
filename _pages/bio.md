@@ -32,15 +32,15 @@ Aug. 2013 – Jun. 2017 &emsp; Bachelor, Department of Earth Science, National C
 2024 &emsp; National Science Foundation Geothermal INTERN Recipient<br />
 2023 &emsp; The David S. & Inga M. Chapman Fund<br />
 2023 &emsp; GAGE/SAGE Community ScienceWorkshop Travel Grant<br />
-2021 &emsp; Stokes-Eardley Fellowship<br />
+2021 &emsp; Stokes-Eardley Fellowship
 
 ### **Selected Talks**
 #### American Geophysical Union (San Fransisco, U.S.A. (2023))
-- High-Resolution Ambient Noise Tomography across Central Taiwan via Multi-Mode Rayleigh Wave Phase Velocity Inversion.
+##### - High-Resolution Ambient Noise Tomography across Central Taiwan via Multi-Mode Rayleigh Wave Phase Velocity Inversion.
 #### Geosciences Annually Assembly (Taoyuan, Taiwan (2023))
-- High-Resolution Ambient Noise Tomography across Central Taiwan via Multi-Mode Rayleigh Wave Phase Velocity Inversion.
+##### - High-Resolution Ambient Noise Tomography across Central Taiwan via Multi-Mode Rayleigh Wave Phase Velocity Inversion.
 #### American Geophysical Union (New Orleans, U.S.A (2021))
-- High-Resolution 3-D Shear Wave Velocity Model of Northern Taiwan via Bayesian Joint Inversion of Rayleigh Wave Ellipticity and Phase Velocity with Formosa Array.
+##### - High-Resolution 3-D Shear Wave Velocity Model of Northern Taiwan via Bayesian Joint Inversion of Rayleigh Wave Ellipticity and Phase Velocity with Formosa Array.
 
 ### **Selected Posters**
 #### American Geophysical Union (Washington D.C, U.S.A. (2024))
