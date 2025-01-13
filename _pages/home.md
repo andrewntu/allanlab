@@ -15,7 +15,7 @@ permalink: /
     <div class="photo-container">
         <img src="{{ site.url }}{{ site.baseurl }}/images/Photo_CNL.jpg" 
              alt="Cheng-Nan Liu" 
-             style="width: 100%; height: auto;">
+             style="width: 100%; height: 100%;">
     </div>
     <!-- Carousel -->
     <!-- <div id="carousel-inner" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" style="flex-grow: 1;"> -->
