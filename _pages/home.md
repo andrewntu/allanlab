@@ -10,7 +10,7 @@ permalink: /
 
 **Interest: Hydrothermal System / Ambient Noise / Mahchine Learning**
 
-<div style="display: flex; align-items: center; margin-bottom: 30px;">
+<div markdown="0" style="display: flex; align-items: center; margin-bottom: 30px;">
     <!-- Photo -->
     <div class="photo-container" style="flex-shrink: 0; margin-right: 20px;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/Photo_CNL.jpg" 
