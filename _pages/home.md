@@ -10,57 +10,59 @@ permalink: /
 
 **Interest: Hydrothermal System / Ambient Noise / Mahchine Learning**
 
-<div markdown="0" style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; margin-bottom: 30px;">
     <!-- Photo -->
-    <div class="photo-container">
+    <div class="photo-container" style="flex-shrink: 0; margin-right: 20px;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/Photo_CNL.jpg" 
              alt="Cheng-Nan Liu" 
-             style="width: 100%; height: 100%; object-fit: cover;">
+             style="width: 150px; height: 150px; object-fit: cover; border-radius: 5px; border: 1px solid #ddd;">
     </div>
-    <!-- Carousel -->
-    <!-- <div id="carousel-inner" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" style="flex-grow: 1;"> -->
-    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" style="max-width: 100%; margin: auto;">
-        <!-- Menu -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-            <li data-target="#carousel" data-slide-to="2"></li>
-            <li data-target="#carousel" data-slide-to="3"></li>
-            <li data-target="#carousel" data-slide-to="4"></li>
-        </ol>
-
-        <!-- Items -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="{{ site.url }}{{ site.baseurl }}/images/front_page_slider/fig_zoom_scatter.png" alt="Slide 1" />
-            </div>
-            <div class="item">
-                <img src="{{ site.url }}{{ site.baseurl }}/images/front_page_slider/fig_pred_false.png" alt="Slide 2" />
-            </div>
-            <div class="item">
-                <img src="{{ site.url }}{{ site.baseurl }}/images/front_page_slider/Figure_4_Vs_Final.png" alt="Slide 3" />
-            </div>
-            <div class="item">
-                <img src="{{ site.url }}{{ site.baseurl }}/images/front_page_slider/ScaNet_result.png" alt="Slide 4" />
-            </div>
-            <div class="item">
-                <img src="{{ site.url }}{{ site.baseurl }}/images/front_page_slider/Figure_2_revise_final.png" alt="Slide 5" />
-            </div>
-        </div>
-
-        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+    <!-- Introductory Text -->
+    <div style="flex-grow: 1;">
+        <p>
+            Hi, I’m <strong>Cheng-Nan Liu</strong>, a highly self-motivated fourth-year Ph.D. candidate with extensive experience 
+            in data science in the <strong>Department of Geology and Geophysics</strong> at the 
+            <a href="https://earth.utah.edu/" target="_blank">University of Utah</a>. Proficient in <strong>time series data analysis</strong> 
+            and <strong>machine learning applications</strong> in Seismology. Proven track record of developing advanced 
+            machine learning models for hydrothermal systems monitoring and prediction. Skilled in both independent research and 
+            collaborative projects, with multiple publications in leading geophysical journals. Currently working on hydrothermal 
+            system monitoring and multiple topics on machine learning (see <a href="{{ site.url }}{{ site.baseurl }}/research" target="_blank">Research</a>).
+        </p>
     </div>
 </div>
 
+<!-- Carousel Section -->
+<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" style="margin-top: 30px;">
+    <!-- Menu -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
 
-Hi, I'm Cheng-Nan Liu, a highly self-motivated fourth-year Ph.D. candidate with extensive experience in data science in Department of Geology and Geophysics at [University of Utah](https://earth.utah.edu/). Proficient in **time series data analysis** and **machine learning** applications in Seismology. Proven track record of developing advanced machine learning models for hydrothermal systems monitoring and prediction. Skilled in both independent research and collaborative projects, with multiple publications in leading geophysical journals. Currently working on hydrothermal system monitoring and multiple topics on machine learning (see [Research](research)). 
+    <!-- Items -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/front_page_slider/fig_zoom_scatter.png" alt="Slide 1" style="width: 100%; height: auto;" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/front_page_slider/fig_pred_false.png" alt="Slide 2" style="width: 100%; height: auto;" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/front_page_slider/Figure_4_Vs_Final.png" alt="Slide 3" style="width: 100%; height: auto;" />
+        </div>
+    </div>
+
+    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
 
 The link to my social media are shown below. Feel free to check them out!<br />
 <a href="https://www.linkedin.com/in/cheng-nan-liu-83077924a"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a>
