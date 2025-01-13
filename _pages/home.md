@@ -15,10 +15,10 @@ permalink: /
     <div class="photo-container" style="flex-shrink: 0; margin-right: 20px;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/Photo_CNL.jpg" 
              alt="Cheng-Nan Liu" 
-             style="width: 240px; height: 300px; object-fit: cover, border-radius: 5px; border: 1px solid #ddd;">
+             style="width: 220px; height: 300px; object-fit: cover, border-radius: 5px; border: 1px solid #ddd;">
     </div>
     <!-- Introductory Text -->
-    <div style="flex-grow: 1;">
+    <div style="flex-grow: 1; text-align: justify;">
         <p>
             Hi, I’m <strong>Cheng-Nan Liu</strong>, a highly self-motivated fourth-year Ph.D. candidate with extensive experience 
             in data science in the <strong>Department of Geology and Geophysics</strong> at the 
