@@ -15,7 +15,7 @@ permalink: /
     <div class="photo-container" style="flex-shrink: 0;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/Photo_CNL.jpg" 
              alt="Cheng-Nan Liu" 
-             style="width: 200px; height: 200px; object-fit: cover">
+             style="width: 100%; height: auto; object-fit: cover">
     </div>
     <!-- Introductory Text -->
     <div style="flex-grow: 1;">
