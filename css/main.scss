@@ -92,6 +92,19 @@ firstp {
     margin-right: 30px;
 }
 
+.photo-container {
+  border-radius: 50%; /* Circular border */
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 2px solid #ddd; /* Optional: add a border */
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Ensure it's a perfect circle */
+  overflow: hidden; /* Ensures image fits within the circle */
+  display: inline-block; /* For alignment consistency */
+}
+
 .fa-linkedin,
   .fa-linkedin-square {
     color: #007bb6;
