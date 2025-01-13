@@ -53,6 +53,10 @@ permalink: /
 
 Hi, I'm Cheng-Nan Liu, a highly self-motivated fourth-year Ph.D. candidate with extensive experience in data science in Department of Geology and Geophysics at [University of Utah](https://earth.utah.edu/). Proficient in **time series data analysis** and **machine learning** applications in Seismology. Proven track record of developing advanced machine learning models for hydrothermal systems monitoring and prediction. Skilled in both independent research and collaborative projects, with multiple publications in leading geophysical journals. Currently working on hydrothermal system monitoring and multiple topics on machine learning (see [Research](research)). 
 
+<div style="text-align: center; margin: 20px 0;">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/photo_CNL.jpg" alt="Cheng-Nan Liu" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid #ddd;">
+</div>
+
 
 The link to my social media are shown below. Feel free to check them out!<br />
 <a href="https://www.linkedin.com/in/cheng-nan-liu-83077924a"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a>
