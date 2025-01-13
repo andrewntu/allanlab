@@ -13,7 +13,7 @@ permalink: /
 <div style="display: flex; align-items: center;">
     <!-- Photo -->
     <div class="photo-container">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/photo_CNL.jpg" 
+        <img src="{{ site.url }}{{ site.baseurl }}/images/Photo_CNL.jpg" 
              alt="Cheng-Nan Liu" 
              style="width: 100%; height: auto;">
     </div>
