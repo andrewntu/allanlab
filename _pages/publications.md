@@ -8,7 +8,7 @@ permalink: /publications/
 
 
 ## Publications
-**You can find all the abtract and publications on the [google scholar](https://scholar.google.com/citations?user=92mnkwIAAAAJ&hl=en&inst=6453797383205921872&authuser=1).**
+**You can find all the abtracts and publications on my [google scholar](https://scholar.google.com/citations?user=92mnkwIAAAAJ&hl=en&inst=6453797383205921872&authuser=1).**
 
 <!-- {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
@@ -81,4 +81,4 @@ permalink: /publications/
 
 ## Thesis
 Using low-cost seismometers and machine learning on earthquake early warning.
-<em>**Liu, Cheng-Nan***, Ting Chung Huang, and Yih Min Wu</em><br /><br /> [Master Thesis](https://doi.org/10.6342/NTU201901735) (2019)
+<em>**Liu, Cheng-Nan***, Ting Chung Huang, and Yih Min Wu</em><br /> [Master Thesis](https://doi.org/10.6342/NTU201901735) (2019)
