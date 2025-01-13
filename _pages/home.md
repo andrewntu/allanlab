@@ -18,7 +18,8 @@ permalink: /
              style="width: 100%; height: auto;">
     </div>
     <!-- Carousel -->
-    <div id="carousel-inner" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" style="flex-grow: 1;">
+    <!-- <div id="carousel-inner" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" style="flex-grow: 1;"> -->
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" style="max-width: 100%; margin: auto;">
         <!-- Menu -->
         <ol class="carousel-indicators">
             <li data-target="#carousel" data-slide-to="0" class="active"></li>
