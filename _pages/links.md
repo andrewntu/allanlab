@@ -7,9 +7,9 @@ permalink: /links/
 ---
 
 #### Collaborators/Mentors
-##### [Yih-Min Wu](http://seismology.gl.ntu.edu.tw/professor_2.htm)<br />
-##### [Hsin-Hua Huang](https://sites.google.com/view/hsinhuahuang/home?authuser=0)<br />
-##### [Fan-Chi Lin](https://noise.earth.utah.edu/)<br />
+##### [Yih-Min Wu](http://seismology.gl.ntu.edu.tw/professor_2.htm) <a href="https://www.ntu.edu.tw/english/">(National Taiwan Univerisy)</a><br />
+##### [Hsin-Hua Huang](https://sites.google.com/view/hsinhuahuang/home?authuser=0) <a href="https://www.earth.sinica.edu.tw/en">(Institude of Earth Scinece, Academia Sinica)</a> <br />
+##### [Fan-Chi Lin](https://noise.earth.utah.edu/) <a href="https://www.utah.edu/">(University of Utah)</a><br />
 ##### [Michael Manga](https://eps.berkeley.edu/people/michael-manga)<br />
 ##### [Jamie Farrell](https://www.uusatrg.utah.edu/PEOPLE/Jamie/)<br />
 ##### [Mara H. Reed](https://www.marareed.com/recent-work)<br />
@@ -20,8 +20,8 @@ permalink: /links/
 ##### Looking forward to adding more!<br />
 
 #### Professional Membership
-##### American Geophysical Union ([AGU])(https://www.agu.org/)<br />
-##### European Geosciences Union ([EGU])(https://www.egu.eu/)<br />
-##### Seismological Society of America ([SSA])(https://www.seismosoc.org/)<br />
-##### nternational Association of Volcanology and Chemistry of the Earth’s Interior [IAVCEI](https://iavcei.gmem.eu/page/home)<br />
+##### American Geophysical Union ([AGU](https://www.agu.org/))<br />
+##### European Geosciences Union ([EGU](https://www.egu.eu/))<br />
+##### Seismological Society of America ([SSA](https://www.seismosoc.org/))<br />
+##### International Association of Volcanology and Chemistry of the Earth’s Interior ([IAVCEI](https://iavcei.gmem.eu/page/home))<br />
 
