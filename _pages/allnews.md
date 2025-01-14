@@ -6,7 +6,7 @@ sitemap: false
 permalink: /allnews.html
 ---
 
-# News
+#### News & Updates
 {% for article in site.data.news %}
 <div markdown="0" class="news-item">
     <strong>{{ article.date }}</strong>
@@ -14,4 +14,4 @@ permalink: /allnews.html
 </div>
 {% endfor %}
 
-### More news will be added. Please stay tuned.
+##### More news will be added. Please stay tuned!

@@ -7,7 +7,7 @@ permalink: /publications/
 ---
 
 
-## Publications
+#### Publications
 **You can find all the abtracts and publications on my [google scholar](https://scholar.google.com/citations?user=92mnkwIAAAAJ&hl=en&inst=6453797383205921872&authuser=1).**
 
 <!-- {% assign number_printed = 0 %}
@@ -48,7 +48,7 @@ permalink: /publications/
 
 <p> &nbsp; </p> -->
 
-## Upcoming
+#### Upcoming
 - ML-aided induced seismicity processing and interpretation for Enhanced Geothermal Systems <br />
 <em> Nakata, N., Bi, Z., Qiu, H., **Liu, C.-N.**, & Nakata, R. (**under review**) </em><br />
 <br />
@@ -56,7 +56,7 @@ permalink: /publications/
 <em>**Liu, C. N.***, Lin, F. C., Manga, M., Farrell, J., Reed, M. H., Barth, A.,... & White, E. (**in prep.**) </em><br />
 
 
-## Full List of publications
+#### Full List of publications
 
 {% for publi in site.data.publist %}
 
@@ -79,6 +79,6 @@ permalink: /publications/
   <br /><br />
 {% endfor %} -->
 
-## Thesis
+#### Thesis
 Using low-cost seismometers and machine learning on earthquake early warning.<br />
 <em>**Liu, Cheng-Nan***, Ting Chung Huang, and Yih Min Wu</em><br /> [Master Thesis](https://doi.org/10.6342/NTU201901735) (2019)
