@@ -7,15 +7,15 @@ permalink: /links/
 ---
 
 #### Collaborators/Mentors
-##### [Yih-Min Wu](http://seismology.gl.ntu.edu.tw/professor_2.htm) <a href="https://www.ntu.edu.tw/english/">(National Taiwan Univerisy)</a><br />
-##### [Hsin-Hua Huang](https://sites.google.com/view/hsinhuahuang/home?authuser=0) <a href="https://www.earth.sinica.edu.tw/en">(Institude of Earth Scinece, Academia Sinica)</a> <br />
-##### [Fan-Chi Lin](https://noise.earth.utah.edu/) <a href="https://www.utah.edu/">(University of Utah)</a><br />
-##### [Michael Manga](https://eps.berkeley.edu/people/michael-manga)<br />
-##### [Jamie Farrell](https://www.uusatrg.utah.edu/PEOPLE/Jamie/)<br />
-##### [Mara H. Reed](https://www.marareed.com/recent-work)<br />
-##### [Anna Barth](https://www.researchgate.net/scientific-contributions/Anna-Barth-2161876347)<br />
-##### [Sin-Mei Wu](https://sites.google.com/view/sinmeiwu/home?authuser=0)<br />
-##### [Nori Nakata](https://scholar.google.com/citations?user=VsHf-U8AAAAJ&hl=en)<br />
+##### [Yih-Min Wu](http://seismology.gl.ntu.edu.tw/professor_2.htm) ([National Taiwan Univerisy](https://www.ntu.edu.tw/english/))<br />
+##### [Hsin-Hua Huang](https://sites.google.com/view/hsinhuahuang/home?authuser=0) ([Institude of Earth Scinece, Academia Sinica](https://www.earth.sinica.edu.tw/en))<br />
+##### [Fan-Chi Lin](https://noise.earth.utah.edu/) ([University of Utah](https://www.utah.edu/))<br />
+##### [Michael Manga](https://eps.berkeley.edu/people/michael-manga) ([UC Berkeley](https://www.berkeley.edu/))<br />
+##### [Jamie Farrell](https://www.uusatrg.utah.edu/PEOPLE/Jamie/) ([University of Utah](https://www.utah.edu/))<br />
+##### [Mara H. Reed](https://www.marareed.com/recent-work) ([UC Berkeley](https://www.berkeley.edu/))<br />
+##### [Anna Barth](https://www.researchgate.net/scientific-contributions/Anna-Barth-2161876347) ([UC Berkeley](https://www.berkeley.edu/))<br />
+##### [Sin-Mei Wu](https://sites.google.com/view/sinmeiwu/home?authuser=0) ([University of Hawaii](https://manoa.hawaii.edu/))<br />
+##### [Nori Nakata](https://scholar.google.com/citations?user=VsHf-U8AAAAJ&hl=en) ([Lawrence Berkeley National Laboratory](https://www.lbl.gov/))<br /> 
 
 ##### Looking forward to adding more!<br />
 
