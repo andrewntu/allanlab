@@ -26,10 +26,10 @@ Here are some topics and researchs that I finished or currently work on:
 We used ambient noise tomography along a central Taiwan seismic array to construct the first high-resolution 2-D shear velocity model of the upper crust. Our analysis captured fundamental- and higher-mode Rayleigh waves, revealing major structural boundaries and fault geometries down to ~10 km depth. The model supports existing pro-wedge and retro-wedge models while offering new insights into Taiwan's orogenic processes and seismic hazards.<br />
 <br />
 <br />
-
+<br />
 **Hydrothermal System Monitoring in Yellowstone.** Geysers, natural analogs to volcanoes, share eruption dynamics like pressure buildup and subsurface tremors. Passive seismic studies at Yellowstone’s Doublet Pool (2015–2023) and Steamboat Geyser (2018–2022) revealed key insights into hydrothermal processes. At Doublet Pool, silence intervals linked to wind speed and thermal disturbances highlight subsurface adjustments in heat and pressure. On May 24, 2023, silence intervals abruptly dropped from ~20 to ~7 minutes, likely due to reservoir disturbances.<br />
-Steamboat Geyser’s 2018 reactivation showed silence intervals correlate with eruption durations, reflecting steady heat influx. These findings improve our understanding of hydrothermal dynamics, aiding eruption prediction and hazard mitigation.
-![]({{ site.url }}{{ site.baseurl }}/images/research/Figure_SI_duration_long.png){: style="width: 250px; float: right; margin: 0px  10px"}![]({{ site.url }}{{ site.baseurl }}/images/research/Steamboat_SI.jpg){: style="width: 350px; float: left; margin: 0px  10px"}<br />
+Steamboat Geyser’s 2018 reactivation showed silence intervals correlate with eruption durations, reflecting steady heat influx. These findings improve our understanding of hydrothermal dynamics, aiding eruption prediction and hazard mitigation.<br />
+![]({{ site.url }}{{ site.baseurl }}/images/research/Figure_SI_duration_long.png){: style="width: 250px; float: center; margin: 0px  10px"}![]({{ site.url }}{{ site.baseurl }}/images/research/Steamboat_SI.jpg){: style="width: 350px; float: left; margin: 0px  10px"}<br />
 <br />
 <br />
 <br />
