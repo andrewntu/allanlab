@@ -7,6 +7,6 @@ permalink: /cv/
 ---
 
 <div markdown="0" class="cv-preview-container">
-    <img src="/files/Cheng-Nan_Liu_CV_preview.png" alt="CV Preview" class="cv-preview">
-    <a href="/files/Cheng-Nan_Liu_CV.pdf" class="cv-download-link" target="_blank">Download Full CV (PDF)</a>
+    <img src="{{ site.url }}{{ site.baseurl }}/files/CN_CV_2024.png" alt="CV Preview" class="cv-preview">
+    <a href="{{ site.url }}{{ site.baseurl }}/CN_CV_2024.pdf" class="cv-download-link" target="_blank">Download Full CV (PDF)</a>
 </div>
