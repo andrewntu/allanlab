@@ -164,14 +164,32 @@ firstp {
     content: "\e9d4";
   }
 
-  #pdf-viewer {
-    width: 100%;
-    height: 800px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9; /* Subtle background for loading state */
-    overflow: hidden;
+  .cv-preview-container {
+    text-align: center;
     margin: 20px auto;
-    position: relative;
+}
+
+.cv-preview {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border: 1px solid #ddd; /* Optional border for the preview */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.cv-download-link {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cv-download-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }
