@@ -30,14 +30,14 @@ We used ambient noise tomography along a central Taiwan seismic array to constru
 **Hydrothermal System Monitoring in Yellowstone.** Geysers, natural analogs to volcanoes, share eruption dynamics like pressure buildup and subsurface tremors. Passive seismic studies at Yellowstone’s Doublet Pool (2015–2023) and Steamboat Geyser (2018–2022) revealed key insights into hydrothermal processes. At Doublet Pool, silence intervals linked to wind speed and thermal disturbances highlight subsurface adjustments in heat and pressure. On May 24, 2023, silence intervals abruptly dropped from ~20 to ~7 minutes, likely due to reservoir disturbances.<br />
 Steamboat Geyser’s 2018 reactivation showed silence intervals correlate with eruption durations, reflecting steady heat influx. These findings improve our understanding of hydrothermal dynamics, aiding eruption prediction and hazard mitigation.<br />
 ![]({{ site.url }}{{ site.baseurl }}/images/research/Figure_SI_duration_long.png){: style="width: 250px; float: center; margin: 0px  10px"}![]({{ site.url }}{{ site.baseurl }}/images/research/Steamboat_SI.jpg){: style="width: 350px; float: left; margin: 0px  10px"}<br />
-<br />
-<br />
-<br />
+
 
 **Ambient Noise Tomography in Northern Taiwan**  
 ![]({{ site.url }}{{ site.baseurl }}/images/research/Figure8_Vsv.png){: style="width: 300px; float: left; margin: 0px 10px"}
 Using eight months of data from the 137-station Formosa array, we developed a high-resolution 3-D shear wave velocity model for Northern Taiwan. By extracting Rayleigh wave signals and analyzing phase velocities and ellipticity with a Bayesian inversion, we revealed low-velocity basins (Taipei, Ilan), deeper anomalies beneath the Linkou Tableland and Tatun Volcano Group, and key active fault systems. This model enhances our understanding of basin formation, orogeny, and seismic hazards in the region.
-
+<br />
+<br />
+<br />
 
 **Multi-branches CNN Network on Earthquake Early Warning System in Taiwan** 
 Earthquake early warning (EEW) systems help mitigate disaster risks, with regional systems analyzing multiple stations and on-site systems using early P-wave data to predict ground motion. In Taiwan, on-site EEW systems use a 0.35 cm peak displacement threshold, but this can be affected by filter choices. Machine learning, on the other hand, processes raw seismic data without preprocessing, offering improved reliability. Our results show that machine learning maintains the same low false alarm rate (0.01%) while halving the missed alarm ratio from 60% to 30%, providing a more stable and efficient method for EEW systems.
