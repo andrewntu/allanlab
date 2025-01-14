@@ -38,6 +38,11 @@ Using eight months of data from the 137-station Formosa array, we developed a hi
 <br />
 <br />
 <br />
-
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 **Multi-branches CNN Network on Earthquake Early Warning System in Taiwan** 
 Earthquake early warning (EEW) systems help mitigate disaster risks, with regional systems analyzing multiple stations and on-site systems using early P-wave data to predict ground motion. In Taiwan, on-site EEW systems use a 0.35 cm peak displacement threshold, but this can be affected by filter choices. Machine learning, on the other hand, processes raw seismic data without preprocessing, offering improved reliability. Our results show that machine learning maintains the same low false alarm rate (0.01%) while halving the missed alarm ratio from 60% to 30%, providing a more stable and efficient method for EEW systems.
