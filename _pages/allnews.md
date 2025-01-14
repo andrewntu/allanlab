@@ -13,3 +13,5 @@ permalink: /allnews.html
     <p>{{ article.headline }}</p>
 </div>
 {% endfor %}
+
+### More news will be added. Please stay tuned.
