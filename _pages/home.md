@@ -72,7 +72,7 @@ The link to my social media are shown below. Feel free to check them out!<br />
 
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Ulogo.jpg" style="width: 160px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/US-NationalParkService-Logo.png" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/NSF_logo.jpg" style="width: 120px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Ulogo.jpg" style="width: 100px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/US-NationalParkService-Logo.png" style="width: 70px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/NSF_logo.jpg" style="width: 90px">
 </figure>
