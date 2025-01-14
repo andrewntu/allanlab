@@ -167,15 +167,17 @@ firstp {
   .cv-preview-container {
     text-align: center;
     margin: 20px auto;
+    max-width: 400px;
 }
 
 .cv-preview {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    border: 1px solid #ddd; /* Optional border for the preview */
-    border-radius: 5px;
-    margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0 auto 10px;
 }
 
 .cv-download-link {
@@ -187,7 +189,7 @@ firstp {
     padding: 8px 16px;
     border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: background-color 1s ease;
 }
 
 .cv-download-link:hover {
