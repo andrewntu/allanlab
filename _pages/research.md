@@ -19,11 +19,13 @@ Here are some topics and researchs that I finished or currently work on:
 
 **AutoQuake - An Automated Earthquake Relocation System** In the collaboration with Institute of Earth Science, Academia Sinica <em>(IES)</em>, we developed a automated earthquake relocation systems that including a fine-tuned AI-based phase picking, phase association, 3-D double-difference relocation, local magnitude estimation, and focal mechanism determination in one seamless process to generate a high-quality, more complete event catalog. This AI-based catalog demonstrates exceptional performance in detecting small earthquakes and is more than four times larger than the routine catalog from the local agency.
 
-**Waveform Reconstruction using Swin Transformer.** We developed a Swin Transformer-based algorithm to enhance seismic data resolution, achieving precise wavefield reconstruction from sparse data. Applied to Milford, Utah's geothermal site, the model outperformed traditional methods, improving efficiency and accuracy in seismic workflows.
-![]({{ site.url }}{{ site.baseurl }}/images/research/Figure_1_depth_contour.jpg){: style="width: 400px; float: left; margin: 0px  10px"}<br />
+**Waveform Reconstruction using Swin Transformer.** 
+![]({{ site.url }}{{ site.baseurl }}/images/research/figure1.png){: style="width: 400px; float: right; margin: 0px  10px"}
+We developed a Swin Transformer-based algorithm to enhance seismic data resolution, achieving precise wavefield reconstruction from sparse data. Applied to Milford, Utah's geothermal site, the model outperformed traditional methods, improving efficiency and accuracy in seismic workflows.
+<br />
 <br />
 **Muiltimode Ambient Noise Tomography across Central Taiwan"**.
-![]({{ site.url }}{{ site.baseurl }}/images/research/figure1.png){: style="width: 400px; float: right; margin: 0px  10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/research/Figure_1_depth_contour.jpg){: style="width: 400px; float: left; margin: 0px  10px"}
 We used ambient noise tomography along a central Taiwan seismic array to construct the first high-resolution 2-D shear velocity model of the upper crust. Our analysis captured fundamental- and higher-mode Rayleigh waves, revealing major structural boundaries and fault geometries down to ~10 km depth. The model supports existing pro-wedge and retro-wedge models while offering new insights into Taiwan's orogenic processes and seismic hazards.<br />
 <br />
 <br />
