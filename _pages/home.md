@@ -63,7 +63,6 @@ permalink: /
     </a>
 </div>
 
-
 The link to my social media are shown below. Feel free to check them out!<br />
 <a href="https://www.linkedin.com/in/cheng-nan-liu-83077924a"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a>
 <a href="https://github.com/andrewntu"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a>
