@@ -6,6 +6,12 @@ sitemap: false
 permalink: /bio
 ---
 
+<div markdown="0" class="cover-image-container" style="text-align: center; margin: 1px 0;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/cover/Alta.jpg" 
+    alt="Cover Image" 
+    style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 1px;">
+</div>
+
 ### **Education**
 Aug. 2021 – present   &emsp; Ph.D., Department of Geology and Geophysics, University of Utah, Salt Lake City, UT, U.S.A. (Advisor: [Dr. Fan-Chi Lin](https://noise.earth.utah.edu/))<br />
 Aug. 2017 – Jun. 2019 &emsp; Master, Department of Geoscience, National Taiwan University, Taipei, Taiwan<br />

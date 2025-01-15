@@ -5,7 +5,11 @@ excerpt: "CN Liu -- Publications."
 sitemap: false
 permalink: /publications/
 ---
-
+<div markdown="0" class="cover-image-container" style="text-align: center; margin: 1px 0;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/cover/DC.jpg" 
+    alt="Cover Image" 
+    style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 1px;">
+</div>
 
 #### Publications
 **You can find all the abtracts and publications on my [google scholar](https://scholar.google.com/citations?user=92mnkwIAAAAJ&hl=en&inst=6453797383205921872&authuser=1).**
