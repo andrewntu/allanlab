@@ -6,6 +6,13 @@ sitemap: false
 permalink: /
 ---
 
+<!-- Cover Image Section -->
+<div class="cover-image-container" style="text-align: center; margin: 20px 0;">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/images/cover/IMG_0318.JPG" 
+         alt="Cover Image" 
+         style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 5px;">
+</div>
+
 **News: New website Alert!** Hi, this is my new website. Come and check it out!
 
 **Interest: Hydrothermal System / Ambient Noise / Mahchine Learning**

@@ -195,3 +195,17 @@ firstp {
 .cv-download-link:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
+
+
+.cover-image-container {
+  text-align: center; /* Center-align the cover image */
+  margin: 20px 0; /* Add vertical spacing */
+}
+
+.cover-image-container img {
+  width: 100%; /* Make the image span the full width of the container */
+  max-height: 400px; /* Limit the height of the image */
+  object-fit: cover; /* Ensure the image maintains its aspect ratio while covering the container */
+  border-radius: 5px; /* Slightly round the corners for a polished look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
