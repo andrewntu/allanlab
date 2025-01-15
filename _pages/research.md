@@ -6,11 +6,11 @@ sitemap: false
 permalink: /research/
 ---
 <!-- Cover Image Section -->
-  <div markdown="0" class="cover-image-container" style="text-align: center; margin: 1px 0;">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/cover/image_tatun.jpg" 
-        alt="Cover Image" 
-        style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 1px;">
-  </div>
+<div markdown="0" class="cover-image-container" style="text-align: center; margin: 1px 0;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/cover/image_tatun.jpg" 
+    alt="Cover Image" 
+    style="width: 100%; max-height: 250px; object-fit: contain; border-radius: 1px;">
+</div>
 
 # Research
 My goal is to explore Earth's subsurface structure, uncover the mysteries of geyser activities, and apply machine learning to Earth science data to reveal the secrets of our planet.
