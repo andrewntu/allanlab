@@ -1,14 +1,10 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url}}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-{% if jekyll.environment == 'production' %}
-{% include analytics.html %}
-{% endif %}
-
+  <meta charset="UTF-8">
+  <meta name="google-site-verification" content="LlHVeXer_ldeNKL9m5xOoqhuPHzQi88RcJfoDCeuo50" />
+  <title>{{ page.title }}</title>
+  <meta name="description" content="Cheng-Nan Liu's personal website, featuring hydrothermal system research, machine learning in geophysics, and more.">
+  <meta name="keywords" content="Cheng-Nan Liu, geophysics, hydrothermal system, machine learning, seismology">
+  <meta name="author" content="Cheng-Nan Liu">
+  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/main.css">
 </head>
+
