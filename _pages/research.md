@@ -9,7 +9,7 @@ permalink: /research/
 <div markdown="0" class="cover-image-container" style="text-align: center; margin: 1px 0;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/cover/image_tatun.jpg" 
     alt="Cover Image" 
-    style="max-height: 250px; object-fit: cover; border-radius: 1px;">
+    style="width: 100%; max-height: 250px; object-fit: contain; border-radius: 1px;">
 </div>
 
 # Research
