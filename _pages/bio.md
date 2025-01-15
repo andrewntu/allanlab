@@ -14,7 +14,7 @@ permalink: /bio
 
 ### **Education**
 Aug. 2021 – present   &emsp; Ph.D., Department of Geology and Geophysics, University of Utah, Salt Lake City, UT, U.S.A. (Advisor: [Dr. Fan-Chi Lin](https://noise.earth.utah.edu/))<br />
-Aug. 2017 – Jun. 2019 &emsp; Master, Department of Geoscience, National Taiwan University, Taipei, Taiwan<br />
+Aug. 2017 – Jun. 2019 &emsp; Master, Department of Geoscience, National Taiwan University, Taipei, Taiwan. (Advisor: [Dr. Yih-Min Wu](http://seismology.gl.ntu.edu.tw/professor_2.htm))<br />
 Aug. 2013 – Jun. 2017 &emsp; Bachelor, Department of Earth Science, National Cheng Kung University, Tainan, Taiwan<br />
 
 ### **Working Experience**
