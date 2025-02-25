@@ -20,6 +20,12 @@ permalink: /links/
 ##### Looking forward to adding more!<br />
 
 <br />
+
+#### Seismotea
+##### We invite speakers which covers a broad range of topics in seismology and geophysics.Check out the visiting scholars for Seismotea 2025 Fall & 2025 Spring!
+##### [Link to the list] (https://docs.google.com/document/d/1Y1bYZcvAdqGZkdwac-GXKWwx3SOmtAbdbbrPSt3rptM/edit?usp=sharing)
+##### [Link to Zoom] (https://utah.zoom.us/j/93241728673) password: Please email me for password!
+###### Co-organizer [Tessa czech](tessa.czech@utah.edu)
 <br />
 
 #### Professional Membership
