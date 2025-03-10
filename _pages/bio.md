@@ -20,8 +20,8 @@ Aug. 2013 – Jun. 2017 &emsp; Bachelor, Department of Earth Science, National C
 ### **Working Experience**
 #### Research Assistant @ University of Utah, Utah, U.S.A. (<em>full time</em>)
 ##### ***Aug 2021 - present***
-- 
-- <br />
+- Hydrothermal systems monitoring/forcasting in Yellowstone National Park. 
+- Ambient Noise Tomography across central Taiwan
 
 #### Research Intern @ Lawerence Berkeley National Laboratory, Berkeley, U.S.A. (<em>full time</em>)
 ##### ***May 2024 - Aug 2024***
