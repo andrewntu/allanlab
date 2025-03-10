@@ -53,9 +53,6 @@ permalink: /publications/
 <p> &nbsp; </p> -->
 
 #### Upcoming
-- ML-aided induced seismicity processing and interpretation for Enhanced Geothermal Systems <br />
-<em> Nakata, N., Bi, Z., Qiu, H., **Liu, C.-N.**, & Nakata, R. (**under review**) </em><br />
-<br />
 - Seismic and Thermal Disturbances at Upper Geyser Hill, Yellowstone National Park (2023): Insights into Hydrothermal System Dynamics <br />
 <em>**Liu, C. N.***, Lin, F. C., Manga, M., Farrell, J., Reed, M. H., Barth, A.,... & White, E. (**in prep.**) </em><br />
 
