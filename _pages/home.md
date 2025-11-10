@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-**News: New website Alert!** Hi, this is my new website. Come and check it out!
+**News:** Hi, this is my website. Come and check it out!
 
 **Interest: Hydrothermal System / Ambient Noise / Mahchine Learning**
 

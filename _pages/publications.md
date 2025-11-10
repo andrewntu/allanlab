@@ -56,6 +56,12 @@ permalink: /publications/
 - Seismic and Thermal Disturbances at Upper Geyser Hill, Yellowstone National Park (2023): Insights into Hydrothermal System Dynamics <br />
 <em>**Liu, C. N.***, Lin, F. C., Manga, M., Farrell, J., Reed, M. H., Barth, A.,... & White, E. (**in prep.**) </em><br />
 
+- An ML-Enhanced Earthquake Catalog for the 2024 Mw 7.4 Hualien Earthquake Sequence: Insights into Structural Transition from Collision to Subduction in Eastern Taiwan <br />
+<em>Yang, H.-Y.^, H.-H. Huang*, E.-S. Wu^, H.-A. Chen^, C.-N. Liu, Y.-F. Hsu, W.-T. Liang, and C.-S. Ku  (**in revision (JRL)**) </em><br />
+
+- Seismic Monitoring on Steamboat Geyser, Yellowstone National Park (TBD) <br />
+<em>**Liu, C. N.***, Lin, F. C., Manga, M., Farrell, J. (**in prep.**) </em><br />
+
 
 #### Full List of publications
 

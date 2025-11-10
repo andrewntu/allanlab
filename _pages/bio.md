@@ -18,10 +18,19 @@ Aug. 2017 – Jun. 2019 &emsp; Master, Department of Geoscience, National Taiwan
 Aug. 2013 – Jun. 2017 &emsp; Bachelor, Department of Earth Science, National Cheng Kung University, Tainan, Taiwan<br />
 
 ### **Working Experience**
+#### (!!!Incoming!!!) Earth Scientist AI Resident @ Google X, Mountain View, U.S.A. (<em>full time</em>)
+##### ***Jan 2026 - May 2026***
+- Will be updated soon! Stay tuned!
+
 #### Research Assistant @ University of Utah, Utah, U.S.A. (<em>full time</em>)
 ##### ***Aug 2021 - present***
 - Hydrothermal systems monitoring/forcasting in Yellowstone National Park. 
 - Ambient Noise Tomography across central Taiwan
+
+#### Data Scientist Intern @ Lumetec, Pasadena, U.S.A. (<em>full time</em>)
+##### ***Jun 2025 - Aug 2025***
+- Developed a real-time system inspired by the Shazam algorithm to process over 500+ TB of Distributed Acoustic Sensing (DAS) data, enhancing real-time monitoring and protection of undersea fiber-optic cables.
+- Developed a system for maritime vessel detection, achieving 70% accuracy for known vessels and 90%+ accuracy for previously undetected vessels, enhancing real-time surveillance capabilities.
 
 #### Research Intern @ Lawerence Berkeley National Laboratory, Berkeley, U.S.A. (<em>full time</em>)
 ##### ***May 2024 - Aug 2024***
@@ -35,6 +44,7 @@ Aug. 2013 – Jun. 2017 &emsp; Bachelor, Department of Earth Science, National C
 - Worked closely with an international team to integrate and automate processes.
 
 ### **Honors/Awards**
+2025 &emsp; Graduate Research Fellowship, University of Utah<br />
 2024 &emsp; National Science Foundation Geothermal INTERN Recipient<br />
 2023 &emsp; The David S. & Inga M. Chapman Fund<br />
 2023 &emsp; GAGE/SAGE Community ScienceWorkshop Travel Grant<br />
