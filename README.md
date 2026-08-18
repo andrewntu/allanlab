@@ -13,7 +13,11 @@ one HTML file + assets. Deployed on GitHub Pages.
 - **Resume**: replace `files/Resume_Cheng-Nan_Liu.pdf` with the new PDF (keep the filename).
 - **Text / jobs / papers**: everything is plain HTML in `index.html` — search for the
   section markers (`id="experience"`, `id="publications"`, …) and edit in place.
+- **Updates section**: add one `<li>` at the TOP of `<ul id="thelog">` (newest first),
+  then add `class="old"` to whatever fell to position 6+. Only the latest 5 show;
+  older ones collapse behind the `$ cat updates.log --all` button — the page never grows.
 - **Photo**: replace `images/photo.jpg`.
+- **Share card**: regenerate with `tools/og_card.py` (needs a venv with `pillow`).
 
 ## Deploy (replace old Jekyll site)
 ```bash

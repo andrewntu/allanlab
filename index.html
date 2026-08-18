@@ -27,7 +27,7 @@
 <style>
   :root{
     --bg:#06080c; --bg-2:#0b0f16; --panel:#0f141d; --panel-2:#131a25; --line:#1c2532;
-    --text:#e9edf4; --text-2:#8d99aa; --dim:#5c6675;
+    --text:#eef2f8; --text-2:#a9b3c2; --dim:#7d8794;
     --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
     --c1:#22d3ee; --c2:#818cf8; --c3:#34d399; --c4:#c084fc;
     --grad:linear-gradient(100deg,#22d3ee 0%,#818cf8 50%,#c084fc 100%);
@@ -103,7 +103,7 @@
   }
   .type-line{margin-top:14px; font-family:var(--mono); font-size:clamp(16px,2.6vw,21px); color:var(--text); min-height:1.7em}
   .type-line .cursor{display:inline-block; width:10px; height:1.15em; background:var(--c1); vertical-align:-2px; margin-left:2px; animation:blink 1s steps(1) infinite}
-  .hero-sub{margin-top:22px; max-width:64ch; color:var(--text-2); font-size:17px}
+  .hero-sub{margin-top:22px; max-width:64ch; color:var(--text-2); font-size:18px}
   .hero-sub b{color:var(--text); font-weight:600}
   .redact{
     font-family:var(--mono); letter-spacing:1px; color:var(--c4); position:relative; cursor:help;
@@ -157,14 +157,14 @@
   /* about */
   .about-grid{display:grid; grid-template-columns:1.5fr 1fr; gap:34px}
   @media (max-width:760px){ .about-grid{grid-template-columns:1fr} }
-  .about p{color:var(--text-2); margin-bottom:14px}
+  .about p{color:var(--text-2); margin-bottom:14px; font-size:16.5px}
   .about b{color:var(--text); font-weight:600}
   .edu{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:24px}
   .edu h3{font-family:var(--mono); font-size:13.5px; color:var(--c1); margin-bottom:14px}
   .edu .deg{padding:9px 0; border-bottom:1px dashed var(--line)}
   .edu .deg:last-child{border-bottom:none}
-  .edu .deg .t{font-size:14.5px; font-weight:600}
-  .edu .deg .s{font-size:13px; color:var(--text-2); font-family:var(--mono)}
+  .edu .deg .t{font-size:15px; font-weight:600}
+  .edu .deg .s{font-size:13.5px; color:var(--text-2); font-family:var(--mono)}
 
   /* experience */
   .xp{border-left:1px solid var(--line); margin-left:8px; padding-left:32px; position:relative}
@@ -180,7 +180,7 @@
   .xp-item h3 span{color:var(--c1)}
   .xp-item .loc2{font-family:var(--mono); font-size:12.5px; color:var(--dim)}
   .xp-item ul{margin-top:10px; padding-left:2px; list-style:none; max-width:70ch}
-  .xp-item li{color:var(--text-2); font-size:14.8px; padding:3px 0 3px 18px; position:relative}
+  .xp-item li{color:var(--text-2); font-size:15.6px; padding:4px 0 4px 18px; position:relative}
   .xp-item li::before{content:"▸"; position:absolute; left:0; color:var(--c2); font-family:var(--mono)}
   .xp-item li b{color:var(--text); font-weight:600}
 
@@ -197,7 +197,7 @@
   .card .icon{font-size:23px; margin-bottom:12px}
   .card h3{font-size:16.5px; font-weight:650; line-height:1.45}
   .card h3 a{color:var(--text)} .card h3 a:hover{color:var(--c1); text-decoration:none}
-  .card p{font-size:14.5px; color:var(--text-2); margin-top:9px}
+  .card p{font-size:15.3px; color:var(--text-2); margin-top:9px}
   .card p b{color:var(--text); font-weight:600}
   .card .meta{font-family:var(--mono); font-size:12.5px; color:var(--c3); margin-top:16px}
   .chips{display:flex; gap:8px; flex-wrap:wrap; margin-top:14px}
@@ -216,10 +216,10 @@
   }
   .pub:hover{border-color:#2b3648; transform:translateX(4px)}
   .pub .yr{font-family:var(--mono); font-size:14px; color:var(--c3); flex:0 0 52px}
-  .pub h3{font-size:15.5px; font-weight:600; line-height:1.5}
+  .pub h3{font-size:16px; font-weight:600; line-height:1.5}
   .pub h3 a{color:var(--text)} .pub h3 a:hover{color:var(--c1); text-decoration:none}
-  .pub .authors{font-size:13.5px; color:var(--text-2); margin-top:5px}
-  .pub .venue{font-size:13.5px; margin-top:3px; color:var(--c2); font-family:var(--mono)}
+  .pub .authors{font-size:14.3px; color:var(--text-2); margin-top:5px}
+  .pub .venue{font-size:14px; margin-top:3px; color:var(--c2); font-family:var(--mono)}
   .pub .fa-badge{
     font-family:var(--mono); font-size:11px; color:var(--c3); border:1px solid rgba(52,211,153,.4);
     border-radius:6px; padding:1px 7px; margin-left:8px; vertical-align:2px; white-space:nowrap;
@@ -233,7 +233,7 @@
   .skill{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:24px}
   .skill h3{font-family:var(--mono); font-size:14px; color:var(--c1); margin-bottom:12px}
   .skill ul{list-style:none}
-  .skill li{font-size:14.5px; color:var(--text-2); padding:3.5px 0}
+  .skill li{font-size:15.3px; color:var(--text-2); padding:4px 0}
   .skill li::before{content:"▸ "; color:var(--c3); font-family:var(--mono)}
 
   /* updates log */
@@ -241,14 +241,17 @@
   .log li{display:flex; gap:20px; padding:10px 2px; align-items:baseline; border-bottom:1px dashed var(--line)}
   .log li:last-child{border-bottom:none}
   .log time{flex:0 0 82px; font-family:var(--mono); font-size:13px; color:var(--c3)}
-  .log p{flex:1; color:var(--text-2); font-size:14.8px}
+  .log p{flex:1; color:var(--text-2); font-size:15.6px}
+  .log li.old{display:none}
+  .log.expanded li.old{display:flex}
+  @media (max-width:560px){ .log.expanded li.old{display:flex; flex-direction:column} }
   .log p b{color:var(--text); font-weight:600}
   @media (max-width:560px){ .log li{flex-direction:column; gap:2px} }
 
   /* terminal */
   .term{
     background:var(--bg-2); border:1px solid var(--line); border-radius:14px; overflow:hidden;
-    font-family:var(--mono); font-size:14px; box-shadow:0 24px 70px rgba(0,0,0,.55);
+    font-family:var(--mono); font-size:14.8px; box-shadow:0 24px 70px rgba(0,0,0,.55);
   }
   .term-bar{display:flex; gap:7px; padding:13px 16px; border-bottom:1px solid var(--line); align-items:center}
   .dot{width:11px; height:11px; border-radius:50%}
@@ -598,20 +601,24 @@
 
   <section id="updates" class="reveal">
     <div class="sec-head">
-      <h2><span class="cmd">$ tail -n 9 updates.log</span>Updates</h2>
+      <h2><span class="cmd">$ tail -n 5 updates.log</span>Updates</h2>
       <div class="rule"></div>
     </div>
-    <ul class="log">
+    <!-- To add an update: insert one <li> at the TOP (newest first). Only the
+         latest 5 stay visible — everything after the 5th gets class="old" and
+         collapses behind the button, so this section never grows. -->
+    <ul class="log" id="thelog">
       <li><time>2026.08</time><p>Joined a <b>stealth startup</b> as Machine Learning Engineer — teaching fiber to listen. 🤫</p></li>
       <li><time>2026.07</time><p><b>Ph.D. completed!</b> 🎓 Received the department's <b>Outstanding Ph.D. Award</b>. Dissertation: <i>Seismic Monitoring of Yellowstone Hydrothermal Systems</i>.</p></li>
-      <li><time>2026.01</time><p>Started as <b>Earth Scientist AI Resident</b> at X, The Moonshot Factory (prev. Google X).</p></li>
-      <li><time>2025.08</time><p>Awarded the <b>Graduate Research Fellowship</b> — the University of Utah's top-ranked fellowship.</p></li>
+      <li><time>2026.01</time><p>Started as <b>Earth Scientist AI Resident</b> at <a href="https://x.company/" target="_blank">X, The Moonshot Factory</a> (prev. Google X).</p></li>
+      <li><time>2025.08</time><p>Awarded the <b>Graduate Research Fellowship</b> — the <a href="https://gradschool.utah.edu/" target="_blank">University of Utah</a>'s top-ranked fellowship.</p></li>
       <li><time>2025.06</time><p>Joined <a href="https://www.lumetec.com/" target="_blank">Lumetec</a> as Data Scientist Intern, working on undersea-cable DAS.</p></li>
-      <li><time>2025.03</time><p>Paper published in <a href="https://pubs.geoscienceworld.org/seg/tle/article/44/4/265/653405" target="_blank">The Leading Edge</a>; new collaboration with Dr. Shandian Zhe (Utah CS) on Old Faithful forecasting.</p></li>
-      <li><time>2025.02</time><p>Invited article in <a href="https://tec.earth.sinica.edu.tw/publication/newsletter/html/202503/47_05.html" target="_blank">TEC Newsletter #47</a>.</p></li>
-      <li><time>2025.01</time><p>Invited reviewer for <b>Seismological Research Letters</b>.</p></li>
-      <li><time>2024.08</time><p>First-author paper accepted in <a href="https://academic.oup.com/gji/article/239/1/467/7731147" target="_blank">Geophysical Journal International</a>.</p></li>
+      <li class="old"><time>2025.03</time><p>Paper published in <a href="https://pubs.geoscienceworld.org/seg/tle/article/44/4/265/653405" target="_blank">The Leading Edge</a>; new collaboration with <a href="https://users.cs.utah.edu/~zhe/" target="_blank">Dr. Shandian Zhe</a> (Utah CS) on Old Faithful forecasting.</p></li>
+      <li class="old"><time>2025.02</time><p>Invited article in <a href="https://tec.earth.sinica.edu.tw/publication/newsletter/html/202503/47_05.html" target="_blank">TEC Newsletter #47</a>.</p></li>
+      <li class="old"><time>2025.01</time><p>Invited reviewer for <a href="https://www.seismosoc.org/publications/srl/" target="_blank">Seismological Research Letters</a>.</p></li>
+      <li class="old"><time>2024.08</time><p>First-author paper accepted in <a href="https://academic.oup.com/gji/article/239/1/467/7731147" target="_blank">Geophysical Journal International</a>.</p></li>
     </ul>
+    <button class="btn" id="morelog" style="margin-top:20px; cursor:pointer">$ cat updates.log --all</button>
   </section>
 
   <section id="stack" class="reveal">
@@ -667,7 +674,7 @@
 
 <footer>
   <div class="wrap inner">
-    <span>© 2026 Cheng-Nan Liu · designed &amp; built from scratch · <span style="color:var(--c3)">v2.2.0</span> · <span style="color:var(--dim)">every click is a quake 🌋</span></span>
+    <span>© 2026 Cheng-Nan Liu · designed &amp; built from scratch · <span style="color:var(--c3)">v2.3.0</span> · <span style="color:var(--dim)">every click is a quake 🌋</span></span>
     <span><a href="https://github.com/andrewntu/cnliu_web" target="_blank">view source ↗</a></span>
   </div>
 </footer>
@@ -678,7 +685,7 @@
 /* ---------- boot sequence ---------- */
 (function(){
   const lines = [
-    ["init", "cnliu.core v2.2.0"],
+    ["init", "cnliu.core v2.3.0"],
     ["load", "seismic_waveform_engine ......... <span class='ok'>OK</span>"],
     ["load", "ml_pipeline [pytorch] ........... <span class='ok'>OK</span>"],
     ["auth", "visitor ......................... <span class='ok'>WELCOME</span>"],
@@ -823,6 +830,16 @@
       card.style.transform = `perspective(700px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-4px)`;
     });
     card.addEventListener("mouseleave", ()=>{ card.style.transform = ""; });
+  });
+})();
+
+/* ---------- updates expander ---------- */
+(function(){
+  const btn = document.getElementById("morelog");
+  if(!btn) return;
+  btn.addEventListener("click", ()=>{
+    const on = document.getElementById("thelog").classList.toggle("expanded");
+    btn.textContent = on ? "$ tail -n 5 updates.log" : "$ cat updates.log --all";
   });
 })();
 
