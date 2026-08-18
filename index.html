@@ -7,12 +7,14 @@
 <meta name="description" content="Cheng-Nan Liu — Machine Learning Engineer. Large-scale time-series modeling & low-SNR signal recovery from distributed sensor networks. Prev. X, The Moonshot Factory; Ph.D. Geophysics.">
 <meta property="og:title" content="Cheng-Nan Liu — Machine Learning Engineer">
 <meta property="og:description" content="I teach machines to listen to the Earth. ML for time-series, signal recovery, and physical-world sensing.">
-<meta property="og:image" content="https://andrewntu.github.io/cnliu_web/images/photo.jpg">
+<meta property="og:image" content="https://andrewntu.github.io/cnliu_web/images/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Cheng-Nan Liu — Machine Learning Engineer">
 <meta name="twitter:description" content="I teach machines to listen to the Earth. ML for time-series, signal recovery, and physical-world sensing.">
-<meta name="twitter:image" content="https://andrewntu.github.io/cnliu_web/images/photo.jpg">
+<meta name="twitter:image" content="https://andrewntu.github.io/cnliu_web/images/og-card.png">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Person","name":"Cheng-Nan Liu",
 "jobTitle":"Machine Learning Engineer",
@@ -320,6 +322,7 @@
       <div class="stat"><div class="num" data-count="30" data-suffix="×">0</div><div class="lbl">inference speedup</div></div>
       <div class="stat"><div class="num" data-count="5" data-suffix="">0</div><div class="lbl">intl. press features</div></div>
     </div>
+    <p style="margin-top:30px; font-family:var(--mono); font-size:12.5px; color:var(--dim)">// tip: click anywhere — be the earthquake 🌋</p>
   </header>
 
   <section id="about" class="reveal">
@@ -664,7 +667,7 @@
 
 <footer>
   <div class="wrap inner">
-    <span>© 2026 Cheng-Nan Liu · designed &amp; built from scratch · <span style="color:var(--c3)">v2.1.0</span></span>
+    <span>© 2026 Cheng-Nan Liu · designed &amp; built from scratch · <span style="color:var(--c3)">v2.2.0</span> · <span style="color:var(--dim)">every click is a quake 🌋</span></span>
     <span><a href="https://github.com/andrewntu/cnliu_web" target="_blank">view source ↗</a></span>
   </div>
 </footer>
@@ -675,7 +678,7 @@
 /* ---------- boot sequence ---------- */
 (function(){
   const lines = [
-    ["init", "cnliu.core v2.1.0"],
+    ["init", "cnliu.core v2.2.0"],
     ["load", "seismic_waveform_engine ......... <span class='ok'>OK</span>"],
     ["load", "ml_pipeline [pytorch] ........... <span class='ok'>OK</span>"],
     ["auth", "visitor ......................... <span class='ok'>WELCOME</span>"],
@@ -737,21 +740,45 @@
     return e * Math.sin(x*.055 + ph*7) * 3;
   }
   const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* you are the earthquake: cursor ripples + click quakes */
+  let mx = -1e9, my = -1e9, energy = 0;
+  const quakes = [];
+  if(!reduced){
+    addEventListener("pointermove", e=>{ mx = e.clientX; my = e.clientY; energy = Math.min(energy + .09, 1); }, {passive:true});
+    addEventListener("pointerdown", e=>{
+      if(e.target.closest && e.target.closest("a,button,input,textarea,select")) return;
+      quakes.push({x:e.clientX, y:e.clientY, age:0});
+      if(quakes.length > 6) quakes.shift();
+    });
+  }
+
   function draw(){
     ctx.clearRect(0,0,W,H);
     const dpr = devicePixelRatio;
     for(const tr of traces){
+      const ty = innerHeight * tr.y;
+      const prox = Math.exp(-Math.pow((ty - my)/180, 2));
       ctx.beginPath();
       for(let x=0; x<=W; x+=3*dpr){
         const xr = x/dpr;
-        const y = H*tr.y
+        let y = H*tr.y
           + (Math.sin(xr*tr.f1 + t*tr.speed*60) * tr.amp*.5
           +  Math.sin(xr*tr.f2 - t*tr.speed*80) * tr.amp*.34
-          +  burst(xr, t*tr.speed*10 + tr.y) * tr.amp*.5) * dpr;
+          +  burst(xr, t*tr.speed*10 + tr.y) * tr.amp*.5
+          +  energy * prox * Math.exp(-Math.pow((xr - mx)/110, 2)) * Math.sin(xr*.11 - t*7) * 26) * dpr;
+        for(const q of quakes){
+          const d = Math.abs(xr - q.x), r = q.age*430;
+          y += Math.exp(-Math.pow((ty - q.y)/240, 2)) * Math.exp(-Math.pow((d - r)/55, 2))
+             * Math.exp(-q.age*1.15) * Math.sin((d - r)*.11) * 44 * dpr;
+        }
         x===0 ? ctx.moveTo(x,y) : ctx.lineTo(x,y);
       }
       ctx.strokeStyle = tr.color; ctx.lineWidth = 1.1*dpr; ctx.stroke();
     }
+    energy *= .95;
+    for(const q of quakes) q.age += 1/60;
+    for(let i=quakes.length-1; i>=0; i--) if(quakes[i].age > 3) quakes.splice(i,1);
     t += 1/60;
     if(!reduced) requestAnimationFrame(draw);
   }
