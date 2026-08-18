@@ -9,6 +9,18 @@
 <meta property="og:description" content="I teach machines to listen to the Earth. ML for time-series, signal recovery, and physical-world sensing.">
 <meta property="og:image" content="https://andrewntu.github.io/cnliu_web/images/photo.jpg">
 <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Cheng-Nan Liu — Machine Learning Engineer">
+<meta name="twitter:description" content="I teach machines to listen to the Earth. ML for time-series, signal recovery, and physical-world sensing.">
+<meta name="twitter:image" content="https://andrewntu.github.io/cnliu_web/images/photo.jpg">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Cheng-Nan Liu",
+"jobTitle":"Machine Learning Engineer",
+"url":"https://andrewntu.github.io/cnliu_web/",
+"image":"https://andrewntu.github.io/cnliu_web/images/photo.jpg",
+"alumniOf":[{"@type":"CollegeOrUniversity","name":"University of Utah"},{"@type":"CollegeOrUniversity","name":"National Taiwan University"},{"@type":"CollegeOrUniversity","name":"National Cheng Kung University"}],
+"sameAs":["https://github.com/andrewntu","https://www.linkedin.com/in/cheng-nan-liu-83077924a","https://scholar.google.com/citations?user=92mnkwIAAAAJ","https://orcid.org/0000-0001-6287-7631"]}
+</script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌋</text></svg>">
 <style>
   :root{
@@ -222,6 +234,15 @@
   .skill li{font-size:14.5px; color:var(--text-2); padding:3.5px 0}
   .skill li::before{content:"▸ "; color:var(--c3); font-family:var(--mono)}
 
+  /* updates log */
+  .log{list-style:none}
+  .log li{display:flex; gap:20px; padding:10px 2px; align-items:baseline; border-bottom:1px dashed var(--line)}
+  .log li:last-child{border-bottom:none}
+  .log time{flex:0 0 82px; font-family:var(--mono); font-size:13px; color:var(--c3)}
+  .log p{flex:1; color:var(--text-2); font-size:14.8px}
+  .log p b{color:var(--text); font-weight:600}
+  @media (max-width:560px){ .log li{flex-direction:column; gap:2px} }
+
   /* terminal */
   .term{
     background:var(--bg-2); border:1px solid var(--line); border-radius:14px; overflow:hidden;
@@ -294,7 +315,7 @@
       <a class="btn" href="mailto:Cheng-Nan.Liu@utah.edu">say_hello()</a>
     </div>
     <div class="stats">
-      <div class="stat"><div class="num" data-count="50" data-suffix="+ TB">0</div><div class="lbl">sensor data modeled</div></div>
+      <div class="stat"><div class="num" data-count="500" data-suffix="+ TB">0</div><div class="lbl">sensor data modeled</div></div>
       <div class="stat"><div class="num" data-count="99" data-prefix="~" data-suffix="%">0</div><div class="lbl">precision & recall, multimodal retrieval</div></div>
       <div class="stat"><div class="num" data-count="30" data-suffix="×">0</div><div class="lbl">inference speedup</div></div>
       <div class="stat"><div class="num" data-count="5" data-suffix="">0</div><div class="lbl">intl. press features</div></div>
@@ -326,19 +347,48 @@
           of fiber into dense arrays of listening sensors, and building the ML that makes sense of what they hear. 🤫
         </p>
       </div>
-      <div class="edu">
-        <h3># education</h3>
-        <div class="deg">
-          <div class="t">Ph.D., Geology &amp; Geophysics</div>
-          <div class="s">University of Utah · 2021–2026</div>
+      <div>
+        <div class="edu">
+          <h3># education</h3>
+          <div class="deg">
+            <div class="t">Ph.D., Geology &amp; Geophysics</div>
+            <div class="s">University of Utah · 2021–2026</div>
+          </div>
+          <div class="deg">
+            <div class="t">M.S., Geoscience</div>
+            <div class="s">National Taiwan University · 2017–2019</div>
+          </div>
+          <div class="deg">
+            <div class="t">B.S., Earth Science</div>
+            <div class="s">National Cheng Kung University · 2013–2017</div>
+          </div>
         </div>
-        <div class="deg">
-          <div class="t">M.S., Geoscience</div>
-          <div class="s">National Taiwan University · 2017–2019</div>
-        </div>
-        <div class="deg">
-          <div class="t">B.S., Earth Science</div>
-          <div class="s">National Cheng Kung University · 2013–2017</div>
+        <div class="edu" style="margin-top:16px">
+          <h3># honors</h3>
+          <div class="deg">
+            <div class="t">Outstanding Ph.D. Award</div>
+            <div class="s">Dept. of Geology &amp; Geophysics, Univ. of Utah · 2026</div>
+          </div>
+          <div class="deg">
+            <div class="t">Graduate Research Fellowship</div>
+            <div class="s">Univ. of Utah's top-ranked fellowship · 2025</div>
+          </div>
+          <div class="deg">
+            <div class="t">NSF Geothermal INTERN</div>
+            <div class="s">National Science Foundation · 2024</div>
+          </div>
+          <div class="deg">
+            <div class="t">David S. &amp; Inga M. Chapman Fund</div>
+            <div class="s">University of Utah · 2023</div>
+          </div>
+          <div class="deg">
+            <div class="t">GAGE/SAGE Workshop Travel Grant</div>
+            <div class="s">Community Science Workshop · 2023</div>
+          </div>
+          <div class="deg">
+            <div class="t">Stokes-Eardley Fellowship</div>
+            <div class="s">University of Utah · 2021</div>
+          </div>
         </div>
       </div>
     </div>
@@ -374,7 +424,8 @@
         <h3>Data Scientist Intern · <span>Lumetec, Inc.</span></h3>
         <div class="loc2">// Pasadena, CA</div>
         <ul>
-          <li><b>Acoustic event fingerprinting</b> with spectral peak hashing on large-scale noisy sensor streams — 70% accuracy on known events, <b>&gt;90% detection on novel events</b>.</li>
+          <li>Built a <b>Shazam-inspired acoustic fingerprinting system</b> (spectral peak hashing) processing <b>500+ TB of Distributed Acoustic Sensing (DAS) data</b> for real-time monitoring and protection of undersea fiber-optic cables.</li>
+          <li><b>Maritime vessel detection:</b> 70% accuracy on known vessels and <b>&gt;90% on previously unseen vessels</b>, optimized for low-SNR robustness.</li>
         </ul>
       </div>
       <div class="xp-item">
@@ -393,6 +444,15 @@
         <ul>
           <li>Dissertation: <b>Seismic Monitoring of Yellowstone Hydrothermal Systems</b>.</li>
           <li>First-author papers in GRL, GJI, JGR; ML-driven monitoring &amp; forecasting of hydrothermal systems.</li>
+        </ul>
+      </div>
+      <div class="xp-item">
+        <div class="when">Jan 2020 — Jul 2021</div>
+        <h3>Research Assistant · <span>Institute of Earth Sciences, Academia Sinica</span></h3>
+        <div class="loc2">// Taipei, Taiwan · full-time</div>
+        <ul>
+          <li>Built <b>AutoQuake</b> — an automated earthquake cataloging pipeline (AI phase picking → association → 3-D double-difference relocation → magnitude &amp; focal mechanisms) producing a catalog <b>4× larger</b> than the local agency's routine catalog.</li>
+          <li>Physics-based modeling of time-series data with <b>Bayesian Markov-chain Monte-Carlo</b>; automated workflows for an international research team.</li>
         </ul>
       </div>
     </div>
@@ -431,10 +491,24 @@
       </div>
       <div class="card tilt">
         <div class="icon">📡</div>
-        <h3>Acoustic Event Fingerprinting</h3>
-        <p>Spectral peak-hashing system identifying unique event signatures in large noisy sensor streams — <b>&gt;90% detection</b> on never-before-seen event types, optimized for low-SNR robustness.</p>
-        <div class="chips"><span class="chip">audio-ml</span><span class="chip">hashing</span><span class="chip">low-SNR</span></div>
+        <h3>Undersea Cable Guardian — DAS Fingerprinting</h3>
+        <p>Shazam-inspired spectral peak hashing over <b>500+ TB</b> of undersea fiber-optic DAS data — real-time cable protection and maritime vessel detection with <b>&gt;90% accuracy on unseen vessels</b>.</p>
+        <div class="chips"><span class="chip">DAS</span><span class="chip">audio-ml</span><span class="chip">real-time</span></div>
         <div class="meta">Lumetec · 2025</div>
+      </div>
+      <div class="card tilt">
+        <div class="icon">🌏</div>
+        <h3>AutoQuake — AI Earthquake Cataloging</h3>
+        <p>End-to-end automated pipeline: AI phase picking, association, 3-D double-difference relocation, magnitudes &amp; focal mechanisms — a catalog <b>4× larger</b> than the official routine catalog.</p>
+        <div class="chips"><span class="chip">deep-learning</span><span class="chip">pipelines</span><span class="chip">seismology</span></div>
+        <div class="meta">Academia Sinica · 2020–21</div>
+      </div>
+      <div class="card tilt">
+        <div class="icon">⏱️</div>
+        <h3>Old Faithful Eruption Forecasting</h3>
+        <p>Probabilistic ML forecasting of the world's most famous geyser from decade-scale seismic records — joint work with computer science (Dr. Shandian Zhe) at the University of Utah.</p>
+        <div class="chips"><span class="chip">forecasting</span><span class="chip">bayesian-ml</span><span class="chip">time-series</span></div>
+        <div class="meta">University of Utah · 2025–26</div>
       </div>
     </div>
   </section>
@@ -494,6 +568,49 @@
     </p>
   </section>
 
+  <section id="talks" class="reveal">
+    <div class="sec-head">
+      <h2><span class="cmd">$ history | grep -E "talks|service"</span>Talks &amp; Service</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="skill-cols">
+      <div class="skill">
+        <h3># invited_talks</h3>
+        <ul>
+          <li>AGU Fall Meeting 2023, San Francisco — multimode ambient noise tomography across Central Taiwan</li>
+          <li>Taiwan Geosciences Assembly 2023, Taoyuan</li>
+          <li>AGU Fall Meeting 2021, New Orleans — Bayesian joint inversion with the Formosa array</li>
+        </ul>
+      </div>
+      <div class="skill">
+        <h3># service_and_membership</h3>
+        <ul>
+          <li>Reviewer — Seismological Research Letters</li>
+          <li>Invited article — <a href="https://tec.earth.sinica.edu.tw/publication/newsletter/html/202503/47_05.html" target="_blank">TEC Newsletter #47</a> (2025)</li>
+          <li>Member — AGU · EGU · SSA · IAVCEI</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="updates" class="reveal">
+    <div class="sec-head">
+      <h2><span class="cmd">$ tail -n 9 updates.log</span>Updates</h2>
+      <div class="rule"></div>
+    </div>
+    <ul class="log">
+      <li><time>2026.08</time><p>Joined a <b>stealth startup</b> as Machine Learning Engineer — teaching fiber to listen. 🤫</p></li>
+      <li><time>2026.07</time><p><b>Ph.D. completed!</b> 🎓 Received the department's <b>Outstanding Ph.D. Award</b>. Dissertation: <i>Seismic Monitoring of Yellowstone Hydrothermal Systems</i>.</p></li>
+      <li><time>2026.01</time><p>Started as <b>Earth Scientist AI Resident</b> at X, The Moonshot Factory (prev. Google X).</p></li>
+      <li><time>2025.08</time><p>Awarded the <b>Graduate Research Fellowship</b> — the University of Utah's top-ranked fellowship.</p></li>
+      <li><time>2025.06</time><p>Joined <a href="https://www.lumetec.com/" target="_blank">Lumetec</a> as Data Scientist Intern, working on undersea-cable DAS.</p></li>
+      <li><time>2025.03</time><p>Paper published in <a href="https://pubs.geoscienceworld.org/seg/tle/article/44/4/265/653405" target="_blank">The Leading Edge</a>; new collaboration with Dr. Shandian Zhe (Utah CS) on Old Faithful forecasting.</p></li>
+      <li><time>2025.02</time><p>Invited article in <a href="https://tec.earth.sinica.edu.tw/publication/newsletter/html/202503/47_05.html" target="_blank">TEC Newsletter #47</a>.</p></li>
+      <li><time>2025.01</time><p>Invited reviewer for <b>Seismological Research Letters</b>.</p></li>
+      <li><time>2024.08</time><p>First-author paper accepted in <a href="https://academic.oup.com/gji/article/239/1/467/7731147" target="_blank">Geophysical Journal International</a>.</p></li>
+    </ul>
+  </section>
+
   <section id="stack" class="reveal">
     <div class="sec-head">
       <h2><span class="cmd">$ cat stack.yml</span>Stack</h2>
@@ -547,7 +664,7 @@
 
 <footer>
   <div class="wrap inner">
-    <span>© 2026 Cheng-Nan Liu · designed &amp; built from scratch · <span style="color:var(--c3)">v2.0.0</span></span>
+    <span>© 2026 Cheng-Nan Liu · designed &amp; built from scratch · <span style="color:var(--c3)">v2.1.0</span></span>
     <span><a href="https://github.com/andrewntu/cnliu_web" target="_blank">view source ↗</a></span>
   </div>
 </footer>
@@ -558,7 +675,7 @@
 /* ---------- boot sequence ---------- */
 (function(){
   const lines = [
-    ["init", "cnliu.core v2.0.0"],
+    ["init", "cnliu.core v2.1.0"],
     ["load", "seismic_waveform_engine ......... <span class='ok'>OK</span>"],
     ["load", "ml_pipeline [pytorch] ........... <span class='ok'>OK</span>"],
     ["auth", "visitor ......................... <span class='ok'>WELCOME</span>"],
