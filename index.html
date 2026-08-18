@@ -24,6 +24,8 @@
 "sameAs":["https://github.com/andrewntu","https://www.linkedin.com/in/cheng-nan-liu-83077924a","https://scholar.google.com/citations?user=92mnkwIAAAAJ","https://orcid.org/0000-0001-6287-7631"]}
 </script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌋</text></svg>">
+<meta name="theme-color" content="#06080c">
+<script>try{const t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <style>
   :root{
     --bg:#06080c; --bg-2:#0b0f16; --panel:#0f141d; --panel-2:#131a25; --line:#1c2532;
@@ -32,6 +34,27 @@
     --c1:#22d3ee; --c2:#818cf8; --c3:#34d399; --c4:#c084fc;
     --grad:linear-gradient(100deg,#22d3ee 0%,#818cf8 50%,#c084fc 100%);
   }
+  :root[data-theme="light"]{
+    --bg:#f6f8fb; --bg-2:#eef2f7; --panel:#ffffff; --panel-2:#f1f5fa; --line:#dde4ee;
+    --text:#161b23; --text-2:#48566a; --dim:#717e8e;
+    --c1:#0e7c9c; --c2:#5457e0; --c3:#047857; --c4:#8b2fd6;
+    --grad:linear-gradient(100deg,#0891b2 0%,#6366f1 50%,#9333ea 100%);
+  }
+  [data-theme="light"] nav{background:rgba(246,248,251,.82)}
+  [data-theme="light"] .glow{opacity:.10}
+  [data-theme="light"] #wave{opacity:.5}
+  [data-theme="light"] ::-webkit-scrollbar-thumb{background:#c3ccd9}
+  [data-theme="light"] ::-webkit-scrollbar-thumb:hover{background:#aab6c6}
+  [data-theme="light"] .card:hover{border-color:#c9d3e0; box-shadow:0 14px 40px rgba(30,41,59,.13)}
+  [data-theme="light"] .term{box-shadow:0 20px 60px rgba(30,41,59,.15)}
+  [data-theme="light"] .avatar{box-shadow:0 0 60px rgba(99,102,241,.28)}
+  [data-theme="light"] .totop{background:rgba(255,255,255,.92)}
+  [data-theme="light"] .btn{background:rgba(255,255,255,.65)}
+  [data-theme="light"] .btn:hover{box-shadow:0 0 22px rgba(8,145,178,.22)}
+  [data-theme="light"] .btn.primary{background:linear-gradient(100deg,rgba(8,145,178,.09),rgba(99,102,241,.09)); border-color:rgba(8,145,178,.45)}
+  [data-theme="light"] .status-pill{background:rgba(4,120,87,.07); border-color:rgba(4,120,87,.3)}
+  [data-theme="light"] .chip{background:rgba(84,87,224,.07); border-color:rgba(84,87,224,.28)}
+  [data-theme="light"] .chip.press{background:rgba(14,124,156,.07); border-color:rgba(14,124,156,.3)}
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
   ::selection{background:rgba(34,211,238,.28)}
@@ -84,6 +107,12 @@
   .nav-links a:hover,.nav-links a.active{color:var(--c1); text-decoration:none}
   .nav-links a .n{color:var(--c1); font-size:11.5px; margin-right:3px; opacity:.85}
   @media (max-width:640px){ .nav-links{gap:14px} .nav-links a .n{display:none} }
+  #themebtn{
+    font-family:var(--mono); font-size:15px; line-height:1; background:none;
+    border:1px solid var(--line); color:var(--text-2); border-radius:8px;
+    width:34px; height:30px; cursor:pointer; transition:color .15s, border-color .15s;
+  }
+  #themebtn:hover{color:var(--c1); border-color:var(--c1)}
 
   /* ---------- hero ---------- */
   header.hero{padding:104px 0 84px; position:relative}
@@ -293,6 +322,7 @@
       <a href="#publications"><span class="n">04.</span>papers</a>
       <a href="#stack"><span class="n">05.</span>stack</a>
       <a href="#contact"><span class="n">06.</span>contact</a>
+      <button id="themebtn" aria-label="toggle light/dark theme" title="toggle theme">☾</button>
     </div>
   </div>
 </nav>
@@ -674,7 +704,7 @@
 
 <footer>
   <div class="wrap inner">
-    <span>© 2026 Cheng-Nan Liu · designed &amp; built from scratch · <span style="color:var(--c3)">v2.3.0</span> · <span style="color:var(--dim)">every click is a quake 🌋</span></span>
+    <span>© 2026 Cheng-Nan Liu · designed &amp; built from scratch · <span style="color:var(--c3)">v2.4.0</span> · <span style="color:var(--dim)">every click is a quake 🌋</span></span>
     <span><a href="https://github.com/andrewntu/cnliu_web" target="_blank">view source ↗</a></span>
   </div>
 </footer>
@@ -685,7 +715,7 @@
 /* ---------- boot sequence ---------- */
 (function(){
   const lines = [
-    ["init", "cnliu.core v2.3.0"],
+    ["init", "cnliu.core v2.4.0"],
     ["load", "seismic_waveform_engine ......... <span class='ok'>OK</span>"],
     ["load", "ml_pipeline [pytorch] ........... <span class='ok'>OK</span>"],
     ["auth", "visitor ......................... <span class='ok'>WELCOME</span>"],
@@ -737,10 +767,14 @@
   function resize(){ W = cv.width = innerWidth * devicePixelRatio; H = cv.height = innerHeight * devicePixelRatio; }
   addEventListener("resize", resize); resize();
   const traces = [
-    {y:.20, amp:14, speed:.014, color:"rgba(34,211,238,.32)",  f1:.010, f2:.023},
-    {y:.48, amp:22, speed:.010, color:"rgba(129,140,248,.27)", f1:.008, f2:.019},
-    {y:.76, amp:12, speed:.017, color:"rgba(52,211,153,.22)",  f1:.012, f2:.027},
+    {y:.20, amp:14, speed:.014, f1:.010, f2:.023},
+    {y:.48, amp:22, speed:.010, f1:.008, f2:.019},
+    {y:.76, amp:12, speed:.017, f1:.012, f2:.027},
   ];
+  const PAL = {
+    dark:  ["rgba(34,211,238,.32)", "rgba(129,140,248,.27)", "rgba(52,211,153,.22)"],
+    light: ["rgba(8,145,178,.38)",  "rgba(99,102,241,.34)",  "rgba(5,150,105,.30)"],
+  };
   function burst(x, ph){
     const c = ((ph*137)%1300)/1000*W/devicePixelRatio - innerWidth*.08;
     const e = Math.exp(-Math.pow((x-c)/(innerWidth*.05), 2));
@@ -763,7 +797,9 @@
   function draw(){
     ctx.clearRect(0,0,W,H);
     const dpr = devicePixelRatio;
-    for(const tr of traces){
+    const pal = PAL[document.documentElement.dataset.theme === "light" ? "light" : "dark"];
+    for(let ti = 0; ti < traces.length; ti++){
+      const tr = traces[ti];
       const ty = innerHeight * tr.y;
       const prox = Math.exp(-Math.pow((ty - my)/180, 2));
       ctx.beginPath();
@@ -781,7 +817,7 @@
         }
         x===0 ? ctx.moveTo(x,y) : ctx.lineTo(x,y);
       }
-      ctx.strokeStyle = tr.color; ctx.lineWidth = 1.1*dpr; ctx.stroke();
+      ctx.strokeStyle = pal[ti]; ctx.lineWidth = 1.1*dpr; ctx.stroke();
     }
     energy *= .95;
     for(const q of quakes) q.age += 1/60;
@@ -830,6 +866,24 @@
       card.style.transform = `perspective(700px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-4px)`;
     });
     card.addEventListener("mouseleave", ()=>{ card.style.transform = ""; });
+  });
+})();
+
+/* ---------- theme toggle ---------- */
+(function(){
+  const btn = document.getElementById("themebtn");
+  const meta = document.querySelector('meta[name="theme-color"]');
+  function apply(){
+    const light = document.documentElement.dataset.theme === "light";
+    btn.textContent = light ? "☀" : "☾";
+    if(meta) meta.content = light ? "#f6f8fb" : "#06080c";
+  }
+  apply();
+  btn.addEventListener("click", ()=>{
+    const next = document.documentElement.dataset.theme === "light" ? "dark" : "light";
+    document.documentElement.dataset.theme = next;
+    try{ localStorage.setItem("theme", next); }catch(e){}
+    apply();
   });
 })();
 
